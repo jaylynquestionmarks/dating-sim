@@ -12,15 +12,15 @@ image MC:
     yalign 2.0
 
 image golf kart kun:
-    "golf kart kun.png"
+    "golf_kart_kun.png"
     zoom 1.75
 
 image bg school:
-    "bg school.jpg"
+    "bg_school.jpg"
     zoom 3.75
 
 image bg doctors office:
-    "bg doctors office.jpg"
+    "bg_doctors_office.jpg"
     zoom 6.00
 
 # The game starts here.
