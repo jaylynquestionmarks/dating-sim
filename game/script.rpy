@@ -1,7 +1,10 @@
+# turn off inline suggest
+
 define player = Character("[playerName]", color = "#d851d4")
 default playerName = "You"
 define doc = Character("[doc1]", color = "#c02e50")
 default doc1 = "???"
+default inputLine = ""
 
 image Doctor:
     "doctor.png"
@@ -26,6 +29,10 @@ image bg doctors office:
 # The game starts here.
 
 label start:
+
+    menu:
+        "do you have hemorrhoids":
+            jump playAlong
 
     # animation of eye opening slowly
     doc "You're awake! How are you feeling?"
@@ -83,7 +90,7 @@ label start:
             jump cowardEnding
 
         "<play along! this is way more exciting than my old life!>":
-            pass
+            jump playAlong
 
 
 label cowardEnding:
@@ -112,3 +119,7 @@ label cowardEnding:
     scene black
     "Ending 01: Coward >:("
     $ MainMenu(confirm = False)()
+
+label playAlong:
+    $ inputLine = renpy.input("Enter Code: ", multiline=True)
+    text "[inputLine]"
