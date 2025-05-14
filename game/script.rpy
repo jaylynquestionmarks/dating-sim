@@ -13,6 +13,10 @@ default doc1 = "???"
 
 label start:
 
+    menu:
+        "<jump to test>":
+            jump test
+
     doc "You're awake! How are you feeling?"
     player "ugh... I'm okay I guess. Who are you?"
     doc "I'm Dr. Polymorphism"
@@ -52,7 +56,7 @@ label start:
             jump cowardEnding
 
         "<play along! this is way more exceiting than my old life!>":
-            pass
+            pass #change to jump
 
 
 
@@ -77,3 +81,9 @@ label cowardEnding:
 
     "Ending: Coward >:("
     $ MainMenu(confirm = False)()
+
+
+label test:
+
+    call screen problem1
+    return
