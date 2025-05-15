@@ -74,7 +74,7 @@ label start:
     player "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     player "No, hold on. Where am I? What is this place?"
-    doc "You're at __ Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
