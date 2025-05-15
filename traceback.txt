@@ -1,24 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 125, in script
-    text "[inputLine]"
-Exception: Sayer 'text' is not defined.
+  File "game/script.rpy", line 42, in script
+    jump playAlong
+ScriptError: could not find label 'playAlong'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 125, in script
-    text "[inputLine]"
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'text' is not defined.
+  File "game/script.rpy", line 42, in script
+    jump playAlong
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'playAlong'.
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 datingsim 1.0
-Wed May 14 14:10:15 2025
+Thu May 15 14:21:19 2025

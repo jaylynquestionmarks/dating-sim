@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 125: expected statement.
-    text inputLine
-                  ^
+File "game/script.rpy", line 112: end of line expected.
+    show text "{color="black"}There's a bug in the game!{/color}" at truecenter
+                       ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed May 14 14:09:34 2025
+Thu May 15 14:48:44 2025
