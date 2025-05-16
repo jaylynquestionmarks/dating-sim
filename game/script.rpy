@@ -1,16 +1,12 @@
-# turn off inline suggest
+# The script of the game goes in this file.
 
-define player = Character("[playerName]", color = "#d851d4")
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+
+define player = Character("[playerName]", color = "#bebebe")
 default playerName = "You"
-define doc = Character("[doc1]", color = "#c02e50")
+define doc = Character("[doc1]", color = "#5877ff")
 default doc1 = "???"
-
-#text input
-default line = ""
-default userInput = ""
-default lineAns = "5"
-default codeAns = "return true"
-default fixed = False
 
 image Doctor:
     "doctor.png"
@@ -20,37 +16,49 @@ image MC:
     "mc.png"
     yalign 2.0
 
-image golf_kart_kun:
-    "golf_kart_kun.png"
+image golf kart kun:
+    "golf kart kun.png"
     zoom 1.75
 
-image bg_school:
-    "bg_school.jpg"
+image bg school:
+    "bg school.jpg"
     zoom 3.75
 
-image bg_doctors_office:
-    "bg_doctors_office.jpg"
+image bg doctors office:
+    "bg doctors office.jpg"
     zoom 6.00
 
 
-# The game starts here.
+label splashscreen:
+    scene black
+    with Pause(1)
 
+    show text "group name studios presents" with dissolve
+    with Pause(2)
+
+    hide text with dissolve
+    with Pause(1)
+
+    return
 
 label start:
 
-    # animation of eye opening slowly
+    # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     player "ugh... I'm okay I guess. Who are you?"
     doc "I'm Dr. Polymorphism."
     $ doc1 = "Dr. Polymorphism"
 
-    "3 hours ago..."
-    scene bg_school
+    "3 hours ago..." with hpunch
+
+    scene bg school
     show mc at left 
+
     player "Oh no! I only have a minute to get to class! I gotta present my final project in Ms. Patil's class today!!!"
-    #all the golf cart crash stuff
-    show golf_kart_kun 
-    with dissolve
+    
+
+    show golf kart kun 
+    with zoomin
 
     player "AAHHHHHHHH!!!"
     "HONK HONK!!!!! SCREEEEECHHHH!!! SSDRJFSUDHICJDKJS"
@@ -59,22 +67,17 @@ label start:
 
     "Present"
 
-    scene bg_doctors_office
+    scene bg doctors office
     show MC at left 
     show Doctor at right 
 
     player "What...? Polymorphism?"
-
-    menu:
-        "<fix bug>":
-            jump fixBug
-
     doc "My last name, huh? My family is pretty well known for our diverse careers."
     doc "You may have heard of my cousin, the idol Paisley Polymorphism. Yes, I'm one of the Polymorphisms."
     player "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     player "No, hold on. Where am I? What is this place?"
-    doc "You're at Code Care Center here at the AP CSA, Miss..."
+    doc "You're at __ Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
@@ -86,53 +89,21 @@ label start:
     doc "Oh, that's okay. So, about your situation. Your code suddenly crashed, but we couldn't figure out the exact cause."
     doc "Our team here was debating whether it was a stack overflow but you didn't show any signs of internal spasming, so we're not exactly sure."
     player "{i}A stack overflow? How does that happen to a person??{/i}"
-    doc "From your medical record, it looks like it's been a recurring issue."
-    doc "Apparently you're an intern at a branch of the AP CSA? That's Agent Patil's Corporation of Secent Agents, in case your memory's still spotty."
-    doc "They've decided they want to keep you under their watch, so they're...putting you on the main team???"
-    doc "That makes no sense. But unfortunately, it's a nonnegotiable order."
+    doc "Because of your unusual situation, your particular case is of interest to the Agent Patil's Corporation of Secret Agents, or the APCSA."
+    doc "They've decided they want to keep you under their watch. Unfortunately, this is a nonnegotiable order."
     player "..."
     player "What."
     doc "You have the benefit of being a guest agent here, though. You'll be reset if we decide to let you go because this is confidential information."
     player "..."
-    doc "If you're feeling up for it, we go on a tour of the facility right now!"
+    doc "If you're feeling up for it, we can go on a tour of the facility right now!"
 
     menu:
         "<fess up and reveal you think you've been isekai'd>":
             jump cowardEnding
 
         "<play along! this is way more exciting than my old life!>":
-            jump playAlong
-
-label fixBug:
-    #probably put all the bgs and left/right chars and line numbers and answers in lists lol
-    scene bg_doctors_office
-    show MC at left
-    show Doctor at right
-
-    show text "{color=#f00}There's a bug in the game!{/color}" at truecenter
-    while fixed != True:
-        $ line = renpy.input("What line # is the bug in?")
-        # affection w/ character increases if right
-        
-        if line == lineAns:
-            player "There's the issue!"
-            while userInput != codeAns:
-                $ userInput = renpy.input("Enter Code (Java): ", multiline=True)
-                if userInput != codeAns:
-                    player "Wait, that's not right..."
-                    #affection w/ character decreases if wrong + secretly increase affection w sahi 
-            # affection w/ character increases if right
-            $ fixed = True
-        else:
-            #affection w/ character decreases if wrong + secretly increase affection w sahi 
-            player "Hold on-- that's not it."
-    $ fixed = False
-    hide text
-    
-    player "I did it!"
-    menu:
-        "<ok>":
             pass
+
 
 label cowardEnding:
 
@@ -150,7 +121,7 @@ label cowardEnding:
     doc "It's a shame we have to part so early. But thank you for being clear with me. Goodbye!!"
     # zap to real world
 
-    scene bg_school
+    scene bg school
     show mc at left
 
     player "I'm back!! Oh no, how much time do I have to get back to class? ONE MINUTE??? I better run!"
@@ -159,7 +130,36 @@ label cowardEnding:
 
     scene black
     "Ending 01: Coward >:("
-    $ MainMenu(confirm = False)()
+    $ MainMenu(confirm = False)()# The script of the game goes in this file.
 
-label playAlong:
-    player "Let's gooo"
+# # Declare characters used by this game. The color argument colorizes the
+# # name of the character.
+
+# define e = Character("Eileen")
+
+
+# # The game starts here.
+
+# label start:
+
+#     # Show a background. This uses a placeholder by default, but you can
+#     # add a file (named either "bg room.png" or "bg room.jpg") to the
+#     # images directory to show it.
+
+#     scene bg room
+
+#     # This shows a character sprite. A placeholder is used, but you can
+#     # replace it by adding a file named "eileen happy.png" to the images
+#     # directory.
+
+#     show eileen happy
+
+#     # These display lines of dialogue.
+
+#     e "You've created a new Ren'Py game."
+
+#     e "Once you add a story, pictures, and music, you can release it to the world!"
+
+#     # This ends the game.
+
+#     return
