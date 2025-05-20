@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 112: end of line expected.
-    show text "{color="black"}There's a bug in the game!{/color}" at truecenter
-                       ^
+File "game/screens.rpy", line 35: 'action' is not a keyword argument or valid child of the fixed statement.
+    action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1)]
+          ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu May 15 14:48:44 2025
+Mon May 19 19:39:21 2025

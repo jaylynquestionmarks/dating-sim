@@ -1,22 +1,55 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 42, in script
-    jump playAlong
-ScriptError: could not find label 'playAlong'.
+While processing the padding property of anonymous style:
+  File "game/script.rpy", line 166, in script
+    $ renpy.pause(0.6)
+  File "game/script.rpy", line 166, in <module>
+    $ renpy.pause(0.6)
+TypeError: 'int' object is not subscriptable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 42, in script
-    jump playAlong
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1712, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'playAlong'.
+  File "game/script.rpy", line 166, in script
+    $ renpy.pause(0.6)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 166, in <module>
+    $ renpy.pause(0.6)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\exports\statementexports.py", line 194, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay, pause_modal=modal)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 485, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\layout.py", line 1376, in visit
+    self.style._visit_window(rv.append)
+  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
+  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
+  File "style.pyx", line 493, in renpy.style.StyleCore._get
+  File "style.pyx", line 717, in renpy.style.build_style
+  File "style.pyx", line 714, in renpy.style.build_style
+  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
+  File "include/style_common.pxi", line 30, in style_functions.index_0
+TypeError: 'int' object is not subscriptable
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 datingsim 1.0
-Thu May 15 14:21:19 2025
+Mon May 19 19:41:35 2025
