@@ -5,15 +5,17 @@ While running game code:
     call screen ticTacToeGame
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/ticTacToeGame.rpy", line 32, in execute
-    screen x0():
-  File "game/ticTacToeGame.rpy", line 32, in execute
-    screen x0():
-  File "game/ticTacToeGame.rpy", line 33, in execute
-    if board[0][0] != "o":
-  File "game/ticTacToeGame.rpy", line 33, in <module>
-    if board[0][0] != "o":
-NameError: name 'board' is not defined
+  File "game/ticTacToeGame.rpy", line 10, in execute
+    screen ticTacToeGame:
+  File "game/ticTacToeGame.rpy", line 10, in execute
+    screen ticTacToeGame:
+  File "game/ticTacToeGame.rpy", line 12, in execute
+    imagemap:
+  File "game/ticTacToeGame.rpy", line 46, in execute
+    if board[0][0] != "" and board[0][0] == board [1][1] and board[1][1] == board[2][2]:
+  File "game/ticTacToeGame.rpy", line 48, in execute
+    text "[board[0][0]] [board[0][1]] [board[0][2]]\n[board[1][0]] [board[1][1]] [board[1][2]]\n[board[][0]] [board[1][1]] [board[2][2]]"
+SyntaxError: invalid syntax (<none>, line 1)
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -50,17 +52,37 @@ Full traceback:
     self.update()
   File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
     self.screen.function(**self.scope)
-  File "game/ticTacToeGame.rpy", line 32, in execute
-    screen x0():
-  File "game/ticTacToeGame.rpy", line 32, in execute
-    screen x0():
-  File "game/ticTacToeGame.rpy", line 33, in execute
-    if board[0][0] != "o":
-  File "game/ticTacToeGame.rpy", line 33, in <module>
-    if board[0][0] != "o":
-NameError: name 'board' is not defined
+  File "game/ticTacToeGame.rpy", line 10, in execute
+    screen ticTacToeGame:
+  File "game/ticTacToeGame.rpy", line 10, in execute
+    screen ticTacToeGame:
+  File "game/ticTacToeGame.rpy", line 12, in execute
+    imagemap:
+  File "game/ticTacToeGame.rpy", line 46, in execute
+    if board[0][0] != "" and board[0][0] == board [1][1] and board[1][1] == board[2][2]:
+  File "game/ticTacToeGame.rpy", line 48, in execute
+    text "[board[0][0]] [board[0][1]] [board[0][2]]\n[board[1][0]] [board[1][1]] [board[1][2]]\n[board[][0]] [board[1][1]] [board[2][2]]"
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\text\text.py", line 2079, in __init__
+    self.set_text(text, scope, substitute) # type: ignore
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\text\text.py", line 2216, in set_text
+    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1216, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
+    raise e
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
+    raise orig_e
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (<none>, line 1)
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 datingsim 1.0
-Mon May 19 23:41:35 2025
+Tue May 20 16:47:46 2025
