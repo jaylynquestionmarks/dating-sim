@@ -2,9 +2,77 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 112: end of line expected.
-    show text "{color="black"}There's a bug in the game!{/color}" at truecenter
-                       ^
+File "game/ticTacToeGame.rpy", line 40: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 45: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 51: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,2)
+             ^
+
+File "game/ticTacToeGame.rpy", line 56: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 61: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 66: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,2)
+             ^
+
+File "game/ticTacToeGame.rpy", line 71: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 76: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 81: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,2)
+             ^
+
+File "game/ticTacToeGame.rpy", line 88: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 93: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 98: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(0,2)
+             ^
+
+File "game/ticTacToeGame.rpy", line 103: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 108: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 113: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(1,2)
+             ^
+
+File "game/ticTacToeGame.rpy", line 118: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,0)
+             ^
+
+File "game/ticTacToeGame.rpy", line 123: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,1)
+             ^
+
+File "game/ticTacToeGame.rpy", line 128: 'storeMove' is not a keyword argument or valid child of the screen statement.
+    storeMove(2,2)
+             ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu May 15 14:48:44 2025
+Mon May 19 23:38:24 2025

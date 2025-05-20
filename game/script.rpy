@@ -47,6 +47,9 @@ label start:
     "3 hours ago..."
     scene bg_school
     show mc at left 
+
+    call screen ticTacToeGame
+
     player "Oh no! I only have a minute to get to class! I gotta present my final project in Ms. Patil's class today!!!"
     #all the golf cart crash stuff
     show golf_kart_kun 
@@ -65,16 +68,12 @@ label start:
 
     player "What...? Polymorphism?"
 
-    menu:
-        "<fix bug>":
-            jump fixBug
-
     doc "My last name, huh? My family is pretty well known for our diverse careers."
     doc "You may have heard of my cousin, the idol Paisley Polymorphism. Yes, I'm one of the Polymorphisms."
     player "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     player "No, hold on. Where am I? What is this place?"
-    doc "You're at __ Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
@@ -103,36 +102,6 @@ label start:
         "<play along! this is way more exciting than my old life!>":
             jump playAlong
 
-label fixBug:
-    #probably put all the bgs and left/right chars and line numbers and answers in lists lol
-    scene bg_doctors_office
-    show MC at left
-    show Doctor at right
-
-    show text "{color=#f00}There's a bug in the game!{/color}" at truecenter
-    while fixed != True:
-        $ line = renpy.input("What line # is the bug in?")
-        # affection w/ character increases if right
-        
-        if line == lineAns:
-            player "There's the issue!"
-            while userInput != codeAns:
-                $ userInput = renpy.input("Enter Code (Java): ", multiline=True)
-                if userInput != codeAns:
-                    player "Wait, that's not right..."
-                    #affection w/ character decreases if wrong + secretly increase affection w sahi 
-            # affection w/ character increases if right
-            $ fixed = True
-        else:
-            #affection w/ character decreases if wrong + secretly increase affection w sahi 
-            player "Hold on-- that's not it."
-    $ fixed = False
-    hide text
-    
-    player "I did it!"
-    menu:
-        "<ok>":
-            pass
 
 label cowardEnding:
 
@@ -163,3 +132,21 @@ label cowardEnding:
 
 label playAlong:
     player "Let's gooo"
+    "Dr. Polymorphism glances down at his tablet and looks confused."
+    player "..Is everything alright?"
+    doc "So."
+    doc "This is a bit awkward, but I was on break playing a game before you were brought in."
+    doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
+    menu:
+        "<Glance at whiteboard>":
+            #picture of tic tac toe on whiteboard
+            player "Were you playing tic tac toe with another patient...?"
+            doc "lol jealous?"
+            player "kinda ngl, why didn't you offer me a game? ;)"
+            doc "well, the board started glitching when you came in :/"
+            doc "For some reason, it's only allowing you to put O's!"
+            menu:
+                "<Investigate>":
+                    #game and code split screens
+                    call screen ticTacToeGame
+    
