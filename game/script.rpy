@@ -16,16 +16,16 @@ image MC:
     "mc.png"
     yalign 2.0
 
-image golf kart kun:
-    "golf kart kun.png"
+image golf_kart_kun:
+    "golf_kart_kun.png"
     zoom 1.75
 
-image bg school:
-    "bg school.jpg"
+image bg_school:
+    "bg_school.jpg"
     zoom 3.75
 
-image bg doctors office:
-    "bg doctors office.jpg"
+image bg_doctors_office:
+    "bg_doctors_office.jpg"
     zoom 6.00
 
 
@@ -51,13 +51,13 @@ label start:
 
     "3 hours ago..." with hpunch
 
-    scene bg school
+    scene bg_school
     show mc at left 
 
     player "Oh no! I only have a minute to get to class! I gotta present my final project in Ms. Patil's class today!!!"
     
 
-    show golf kart kun 
+    show golf_kart_kun 
     with zoomin
 
     player "AAHHHHHHHH!!!"
@@ -67,7 +67,7 @@ label start:
 
     "Present"
 
-    scene bg doctors office
+    scene bg_doctors_office
     show MC at left 
     show Doctor at right 
 
@@ -122,7 +122,7 @@ label cowardEnding:
     doc "It's a shame we have to part so early. But thank you for being clear with me. Goodbye!!"
     # zap to real world
 
-    scene bg school
+    scene bg_school
     show mc at left
 
     player "I'm back!! Oh no, how much time do I have to get back to class? ONE MINUTE??? I better run!"
