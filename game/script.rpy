@@ -77,7 +77,7 @@ label start:
     player "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     player "No, hold on. Where am I? What is this place?"
-    doc "You're at __ Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
@@ -89,21 +89,22 @@ label start:
     doc "Oh, that's okay. So, about your situation. Your code suddenly crashed, but we couldn't figure out the exact cause."
     doc "Our team here was debating whether it was a stack overflow but you didn't show any signs of internal spasming, so we're not exactly sure."
     player "{i}A stack overflow? How does that happen to a person??{/i}"
-    doc "Because of your unusual situation, your particular case is of interest to the Agent Patil's Corporation of Secret Agents, or the APCSA."
-    doc "They've decided they want to keep you under their watch. Unfortunately, this is a nonnegotiable order."
+    doc "From your medical record, it looks like it's been a recurring issue."
+    doc "Apparently you're an intern at a branch of the AP CSA? That's Agent Patil's Corporation of Secent Agents, in case your memory's still spotty."
+    doc "They've decided they want to keep you under their watch, so they're...putting you on the main team???"
+    doc "That makes no sense. But unfortunately, it's a nonnegotiable order."
     player "..."
     player "What."
     doc "You have the benefit of being a guest agent here, though. You'll be reset if we decide to let you go because this is confidential information."
     player "..."
-    doc "If you're feeling up for it, we can go on a tour of the facility right now!"
+    doc "If you're feeling up for it, we go on a tour of the facility right now!"
 
     menu:
         "<fess up and reveal you think you've been isekai'd>":
             jump cowardEnding
 
         "<play along! this is way more exciting than my old life!>":
-            pass
-
+            jump playAlong
 
 label cowardEnding:
 
@@ -130,36 +131,24 @@ label cowardEnding:
 
     scene black
     "Ending 01: Coward >:("
-    $ MainMenu(confirm = False)()# The script of the game goes in this file.
+    $ MainMenu(confirm = False)()
 
-# # Declare characters used by this game. The color argument colorizes the
-# # name of the character.
-
-# define e = Character("Eileen")
-
-
-# # The game starts here.
-
-# label start:
-
-#     # Show a background. This uses a placeholder by default, but you can
-#     # add a file (named either "bg room.png" or "bg room.jpg") to the
-#     # images directory to show it.
-
-#     scene bg room
-
-#     # This shows a character sprite. A placeholder is used, but you can
-#     # replace it by adding a file named "eileen happy.png" to the images
-#     # directory.
-
-#     show eileen happy
-
-#     # These display lines of dialogue.
-
-#     e "You've created a new Ren'Py game."
-
-#     e "Once you add a story, pictures, and music, you can release it to the world!"
-
-#     # This ends the game.
-
-#     return
+label playAlong:
+    player "Let's gooo"
+    "Dr. Polymorphism glances down at his tablet and looks confused."
+    player "..Is everything alright?"
+    doc "So."
+    doc "This is a bit awkward, but I was on break playing a game before you were brought in."
+    doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
+    menu:
+        "<Glance at whiteboard>":
+            #picture of tic tac toe on whiteboard
+            player "Were you playing tic tac toe with another patient...?"
+            doc "lol jealous?"
+            player "kinda ngl, why didn't you offer me a game? ;)"
+            doc "well, the board started glitching when you came in :/"
+            doc "For some reason, it's only allowing you to put O's!"
+            menu:
+                "<Investigate>":
+                    call screen ticTacToeGame
+    
