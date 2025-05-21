@@ -151,4 +151,6 @@ label playAlong:
             menu:
                 "<Investigate>":
                     call screen ticTacToeGame
+
+    player "yay :)"
     
