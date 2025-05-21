@@ -34,6 +34,8 @@ screen ticTacToeGame:
         elif i0 != "" and i1 != "" and i2 != "" and i3 != "" and i4 != "" and i5 != "" and i6 != "" and i7 != "" and i8 != "":
             text "TIE!"
 
+        #hotspots are areas on an image that you can click on to make the game do stuff
+        #the $ indicates that the following line is a line of python
         if win == False:
             if turn == "x":
                 hotspot(238, 176, 407, 552) action [Show("x0"), Hide("o0"), SetScreenVariable("i0", "x")]
@@ -59,7 +61,7 @@ screen ticTacToeGame:
                 hotspot(680, 1285, 523, 489) action [Show("o7"), Hide("x7"), SetScreenVariable("i7", "o")]
                 hotspot(1233, 1278, 501, 490) action [Show("o8"), Hide("x8"), SetScreenVariable("i8", "o")]
 
-                $ turn = "x"
+                $ turn = "o"
     
         textbutton "{size=*2}Clear Board{/size}":
             xpos 50
