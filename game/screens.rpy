@@ -35,6 +35,7 @@ style button_text is gui_text:
 
 style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
+    
 
 style prompt_text is gui_text:
     properties gui.text_properties("prompt")
@@ -81,6 +82,151 @@ style frame:
 ## In-game screens
 ################################################################################
 
+## custom screens
+screen announce(announcement, subtext):
+
+    frame:
+    # changed window^^ to frame, then added these for the image. this is to customize the input box
+        background Frame("gui/announce.png")
+        xalign 0.5
+        yalign 0.5
+        xsize 1180
+        ysize 516
+
+        vbox:
+            spacing 10
+            xalign 0.5
+            yalign 0.5
+            xsize 475
+            text announcement align (0.5, 0.0)
+            if subtext is not None:
+                text subtext size 27 align (0.5, 0.0)
+
+screen charMenuButton():
+    vbox:
+        xpos 75
+        ypos 25
+        imagebutton:
+            auto "gui/charMenu_%s.png"
+            action [ToggleScreen("charMenu", fade)]
+
+
+
+screen charMenu():
+    frame:
+        background Frame("gui/overlay/confirm.png")
+        
+    grid 4 2:  
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 150 ypos 200
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "Peter Polymorphism":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 250 ypos 200
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "Isaac Integer":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 350 ypos 200
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "[dname]":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 450 ypos 200
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "???":
+                xpos 70
+                ypos 100
+                size 30
+
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 150 ypos 400
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "???":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 250 ypos 400
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "???":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 350 ypos 400
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "???":
+                xpos 70
+                ypos 100
+                size 30
+        button:
+            style "profile_button"
+            action [Show("docDesc"), Fade(0.5)]
+            xpos 450 ypos 400
+
+            idle_background "gui/profile_idle.png"
+            hover_background "gui/profile_hover.png"
+
+            text "???":
+                xpos 70
+                ypos 100
+                size 30
+
+style profile_button is default
+style profile_button:
+    idle_background "gui/profile_idle.png"
+    hover_background "gui/profile_hover.png"
+    padding (0, 10)  
+    xsize 300 
+    ysize 200
+
+screen docDesc:
+    text "hello"
+            
+    
 
 ## Say screen ##################################################################
 ##
@@ -134,8 +280,8 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
+    background Frame("gui/textbox.png", xalign=0.5, yalign=1.0, ysize=300)
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -151,6 +297,7 @@ style say_label:
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign 0.5
+    
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -174,13 +321,20 @@ style say_dialogue:
 screen input(prompt):
     style_prefix "input"
 
-    window:
+    frame:
+    # changed window^^ to frame, then added these for the image. this is to customize the input box
+        background Frame("gui/input box.png", Borders(0, 0, 0, 0))
+        xalign 0.5
+        yalign 0.5
+        xsize 600
+        ysize 400
+        
 
         vbox:
             xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
+            xpos 100
             xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
+            ypos 140
 
             text prompt style "input_prompt"
             input id "input"
@@ -190,10 +344,14 @@ style input_prompt is default
 style input_prompt:
     xalign gui.dialogue_text_xalign
     properties gui.text_properties("input_prompt")
+    font 'fonts/Dosis-VariableFont_wght.ttf'
+    color '#0080ff'
 
 style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
+    font 'fonts/Dosis-VariableFont_wght.ttf'
+    color '#fff'
 
 
 ## Choice screen ###############################################################

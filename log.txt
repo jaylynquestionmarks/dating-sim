@@ -1,37 +1,37 @@
-2025-05-20 03:44:58 UTC
+2025-05-21 02:16:28 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.35s
-Loading error handling took 0.23s
-Loading script took 1.46s
-Loading save slot metadata took 0.72s
-Loading persistent took 0.00s
-Running init code took 0.35s
-Loading analysis data took 0.07s
+Early init took 0.39s
+Loading error handling took 0.29s
+Loading script took 3.46s
+Loading save slot metadata took 0.67s
+Loading persistent took 0.01s
+Running init code took 0.66s
+Loading analysis data took 0.09s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.79s
+Reloading save slot metadata took 0.28s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\IDK\\AppData\\Roaming/RenPy/backups\\dating-sim':
-Dump and make backups took 0.36s
+Dump and make backups took 0.31s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.15s
+Initial gc took 0.08s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.03s
+Creating interface object took 0.14s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.00s
+Build styles took 0.02s
 Load screen analysis took 0.00s
-Analyze screens took 0.11s
-Save screen analysis took 0.21s
-Prepare screens took 0.36s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.37s
-Running _start took 0.01s
-Interface start took 1.74s
+Analyze screens took 0.13s
+Save screen analysis took 0.20s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.31s
+Running _start took 0.00s
+Interface start took 2.22s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -43,3 +43,10 @@ Version: b'4.6.0 - Build 31.0.101.2130'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.16s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
