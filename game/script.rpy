@@ -141,14 +141,27 @@ label playAlong:
     doc "This is a bit awkward, but I was on break playing a game before you were brought in."
     doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
     menu:
-        "<Glance at whiteboard>":
-            #picture of tic tac toe on whiteboard
+        "<Glance at board>":
+            "There is a picture of tic tac toe on board."
             player "Were you playing tic tac toe with another patient...?"
             doc "lol jealous?"
             player "kinda ngl, why didn't you offer me a game? ;)"
             doc "well, the board started glitching when you came in :/"
-            doc "For some reason, it's only allowing you to put O's!"
+            doc "Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out."
             menu:
                 "<Investigate>":
-                    call screen ticTacToeGame
+                    show screen ticTacToeGame(False)
+                    call fixBug(doc, 3, "64", "$ turn = \"x\"")
+                    hide screen ticTacToeGame
+                    hide screen o0
+                    hide screen o1
+                    hide screen o2
+                    hide screen o3
+                    hide screen o4
+                    hide screen o5
+                    hide screen o6
+                    hide screen o7
+                    hide screen o8
+    call screen ticTacToeGame(True)
+    doc "wow!"
     

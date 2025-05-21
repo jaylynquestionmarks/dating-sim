@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 35: 'action' is not a keyword argument or valid child of the fixed statement.
-    action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1)]
-          ^
+File "game/script.rpy", line 163: end of line expected.
+    hide screen o7, o8
+                  ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Mon May 19 19:39:21 2025
+Tue May 20 22:30:56 2025
