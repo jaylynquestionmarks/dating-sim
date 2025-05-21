@@ -1,16 +1,12 @@
-# turn off inline suggest
+# The script of the game goes in this file.
 
-define player = Character("[playerName]", color = "#d851d4")
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+
+define player = Character("[playerName]", color = "#bebebe")
 default playerName = "You"
-define doc = Character("[doc1]", color = "#c02e50")
+define doc = Character("[doc1]", color = "#5877ff")
 default doc1 = "???"
-
-#text input
-default line = ""
-default userInput = ""
-default lineAns = "5"
-default codeAns = "return true"
-default fixed = False
 
 image Doctor:
     "doctor.png"
@@ -20,38 +16,49 @@ image MC:
     "mc.png"
     yalign 2.0
 
-image golf_kart_kun:
-    "golf_kart_kun.png"
+image golf kart kun:
+    "golf kart kun.png"
     zoom 1.75
 
-image bg_school:
-    "bg_school.jpg"
+image bg school:
+    "bg school.jpg"
     zoom 3.75
 
-image bg_doctors_office:
-    "bg_doctors_office.jpg"
+image bg doctors office:
+    "bg doctors office.jpg"
     zoom 6.00
 
 
-# The game starts here.
+label splashscreen:
+    scene black
+    with Pause(1)
 
+    show text "group name studios presents" with dissolve
+    with Pause(2)
+
+    hide text with dissolve
+    with Pause(1)
+
+    return
 
 label start:
 
-    # animation of eye opening slowly
+    # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     player "ugh... I'm okay I guess. Who are you?"
     doc "I'm Dr. Polymorphism."
     $ doc1 = "Dr. Polymorphism"
 
-    "3 hours ago..."
-    scene bg_school
+    "3 hours ago..." with hpunch
+
+    scene bg school
     show mc at left 
 
     player "Oh no! I only have a minute to get to class! I gotta present my final project in Ms. Patil's class today!!!"
-    #all the golf cart crash stuff
-    show golf_kart_kun 
-    with dissolve
+    
+
+    show golf kart kun 
+    with zoomin
 
     player "AAHHHHHHHH!!!"
     "HONK HONK!!!!! SCREEEEECHHHH!!! SSDRJFSUDHICJDKJS"
@@ -60,12 +67,11 @@ label start:
 
     "Present"
 
-    scene bg_doctors_office
+    scene bg doctors office
     show MC at left 
     show Doctor at right 
 
     player "What...? Polymorphism?"
-
     doc "My last name, huh? My family is pretty well known for our diverse careers."
     doc "You may have heard of my cousin, the idol Paisley Polymorphism. Yes, I'm one of the Polymorphisms."
     player "... Did I get freaking isekai'd???"
@@ -100,7 +106,6 @@ label start:
         "<play along! this is way more exciting than my old life!>":
             jump playAlong
 
-
 label cowardEnding:
 
     player "I'm sorry, Dr. P. I think I've been isekai'ed into this world."
@@ -117,7 +122,7 @@ label cowardEnding:
     doc "It's a shame we have to part so early. But thank you for being clear with me. Goodbye!!"
     # zap to real world
 
-    scene bg_school
+    scene bg school
     show mc at left
 
     player "I'm back!! Oh no, how much time do I have to get back to class? ONE MINUTE??? I better run!"
