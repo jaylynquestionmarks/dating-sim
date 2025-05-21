@@ -18,6 +18,8 @@ define r = Character("Raphael Recursion", color = "#3bf441")
 define ic = Character ("[iname]", color = '#fecb3f')
 default iname = "???"
 
+#hello!
+
 default equip = True
 
 image doctor:
