@@ -87,7 +87,7 @@ screen announce(announcement, subtext):
 
     frame:
     # changed window^^ to frame, then added these for the image. this is to customize the input box
-        background Frame("gui/announce.png")
+        background Frame("gui/assets/announce.png")
         xalign 0.5
         yalign 0.5
         xsize 1180
@@ -107,7 +107,7 @@ screen charMenuButton():
         xpos 75
         ypos 25
         imagebutton:
-            auto "gui/charMenu_%s.png"
+            auto "gui/assets/charMenu_%s.png"
             action [ToggleScreen("charMenu", fade)]
 
 
@@ -122,8 +122,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 150 ypos 200
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "Peter Polymorphism":
                 xpos 70
@@ -134,8 +134,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 250 ypos 200
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "Isaac Integer":
                 xpos 70
@@ -146,8 +146,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 350 ypos 200
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "[dname]":
                 xpos 70
@@ -158,8 +158,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 450 ypos 200
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "???":
                 xpos 70
@@ -171,8 +171,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 150 ypos 400
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "???":
                 xpos 70
@@ -183,8 +183,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 250 ypos 400
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "???":
                 xpos 70
@@ -195,8 +195,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 350 ypos 400
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/assets/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "???":
                 xpos 70
@@ -207,8 +207,8 @@ screen charMenu():
             action [Show("docDesc"), Fade(0.5)]
             xpos 450 ypos 400
 
-            idle_background "gui/profile_idle.png"
-            hover_background "gui/profile_hover.png"
+            idle_background "gui/asests/profile_idle.png"
+            hover_background "gui/assets/profile_hover.png"
 
             text "???":
                 xpos 70
@@ -217,8 +217,8 @@ screen charMenu():
 
 style profile_button is default
 style profile_button:
-    idle_background "gui/profile_idle.png"
-    hover_background "gui/profile_hover.png"
+    idle_background "gui/assets/profile_idle.png"
+    hover_background "gui/assets/profile_hover.png"
     padding (0, 10)  
     xsize 300 
     ysize 200
@@ -280,7 +280,7 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-    background Frame("gui/textbox.png", xalign=0.5, yalign=1.0, ysize=300)
+    background Frame("gui/assets/textbox.png", xalign=0.5, yalign=1.0, ysize=300)
 
 
 style namebox:
@@ -323,7 +323,7 @@ screen input(prompt):
 
     frame:
     # changed window^^ to frame, then added these for the image. this is to customize the input box
-        background Frame("gui/input box.png", Borders(0, 0, 0, 0))
+        background Frame("gui/assets/input_box.png", Borders(0, 0, 0, 0))
         xalign 0.5
         yalign 0.5
         xsize 600

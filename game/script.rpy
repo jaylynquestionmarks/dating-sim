@@ -4,7 +4,7 @@
 # name of the character.
 
 define preShiftp = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/textbox1.png", 1, 1), namebox_xpos=220)
-define p = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/ourTextbox.png", ypos = -20), namebox_xpos=220)
+define p = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/assets/ourTextbox.png", ypos = -20), namebox_xpos=220)
 default playerName = "You"
 define doc = Character("[doc1]", color = "#001368")
 default doc1 = "???"
