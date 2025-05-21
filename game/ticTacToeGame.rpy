@@ -61,7 +61,7 @@ screen ticTacToeGame:
                 hotspot(680, 1285, 523, 489) action [Show("o7"), Hide("x7"), SetScreenVariable("i7", "o")]
                 hotspot(1233, 1278, 501, 490) action [Show("o8"), Hide("x8"), SetScreenVariable("i8", "o")]
 
-                $ turn = "x"
+                $ turn = "o"
     
         textbutton "{size=*2}Clear Board{/size}":
             xpos 50
