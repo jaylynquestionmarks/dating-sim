@@ -5,17 +5,8 @@ While running game code:
     call screen ticTacToeGame
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/ticTacToeGame.rpy", line 10, in execute
-    screen ticTacToeGame:
-  File "game/ticTacToeGame.rpy", line 10, in execute
-    screen ticTacToeGame:
-  File "game/ticTacToeGame.rpy", line 12, in execute
-    imagemap:
-  File "game/ticTacToeGame.rpy", line 46, in execute
-    if board[0][0] != "" and board[0][0] == board [1][1] and board[1][1] == board[2][2]:
-  File "game/ticTacToeGame.rpy", line 48, in execute
-    text "[board[0][0]] [board[0][1]] [board[0][2]]\n[board[1][0]] [board[1][1]] [board[1][2]]\n[board[][0]] [board[1][1]] [board[2][2]]"
-SyntaxError: invalid syntax (<none>, line 1)
+Exception: Screen ticTacToeGame is not known.
+
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -30,59 +21,14 @@ Full traceback:
     return method(parsed, *args, **kwargs)
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\exports\statementexports.py", line 345, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
-    self.screen.function(**self.scope)
-  File "game/ticTacToeGame.rpy", line 10, in execute
-    screen ticTacToeGame:
-  File "game/ticTacToeGame.rpy", line 10, in execute
-    screen ticTacToeGame:
-  File "game/ticTacToeGame.rpy", line 12, in execute
-    imagemap:
-  File "game/ticTacToeGame.rpy", line 46, in execute
-    if board[0][0] != "" and board[0][0] == board [1][1] and board[1][1] == board[2][2]:
-  File "game/ticTacToeGame.rpy", line 48, in execute
-    text "[board[0][0]] [board[0][1]] [board[0][2]]\n[board[1][0]] [board[1][1]] [board[1][2]]\n[board[][0]] [board[1][1]] [board[2][2]]"
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\text\text.py", line 2079, in __init__
-    self.set_text(text, scope, substitute) # type: ignore
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\text\text.py", line 2216, in set_text
-    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 373, in substitute
-    s = interpolate(s, variables) # type: ignore
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 86, in interpolate
-    raise e
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\substitutions.py", line 78, in interpolate
-    value = renpy.python.py_eval(code, {}, scope)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1216, in py_eval
-    code = py_compile(code, 'eval')
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
-    raise e
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
-    raise orig_e
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (<none>, line 1)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\exports\statementexports.py", line 331, in call_screen
+    renpy.exports.show_screen(_screen_name, *args, _transient=True, **kwargs)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\display\screen.py", line 1328, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen ticTacToeGame is not known.
+
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 datingsim 1.0
-Tue May 20 16:47:46 2025
+Tue May 20 17:25:12 2025

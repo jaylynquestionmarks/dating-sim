@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ticTacToeGame.rpy", line 69: reached end of line when expecting ':'.
-    if$ board[0][0] = "x"
-                         ^
+File "game/ticTacToeGame.rpy", line 31: expected a keyword argument, colon, or end of line.
+    text "{size=*3}X WINS!{/size}" xpos  ypos 2000
+                                              ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue May 20 16:47:48 2025
+Tue May 20 17:32:46 2025
