@@ -125,7 +125,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "Peter Polymorphism":
+            text "[docName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -137,7 +137,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "Isaac Integer":
+            text "[iName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -161,7 +161,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "???":
+            text "[sName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -174,7 +174,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "???":
+            text "[saName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -186,7 +186,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "???":
+            text "[rName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -198,7 +198,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "???":
+            text "[icName]":
                 xpos 70
                 ypos 100
                 size 30

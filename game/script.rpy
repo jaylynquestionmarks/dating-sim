@@ -6,17 +6,20 @@
 define preShiftp = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/textbox1.png", 1, 1), namebox_xpos=220)
 define p = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/assets/ourTextbox.png", ypos = -20), namebox_xpos=220)
 default playerName = "You"
-define doc = Character("[doc1]", color = "#001368")
-default doc1 = "???"
-define i = Character("[i1]", color = "#ff8800")
-default i1 = "???"
-define d = Character("[dname]", color = "#000000")
-define dname = "Damian Double"
-define si = Character("Sierra String", color = '#979797')
-define sa = Character("SDK Sahi", color = '#9000ff')
-define r = Character("Raphael Recursion", color = "#3bf441")
-define ic = Character ("[iname]", color = '#fecb3f')
-default iname = "???"
+define doc = Character("[docName]", color = "#001368")
+default docName = "???"
+define i = Character("[iName]", color = "#ff8800")
+default iName = "???"
+define d = Character("[dName]", color = "#000000")
+define dName = "Damian Double"
+define si = Character("[sName]", color = '#979797')
+define sName = "Sierra String"
+define sa = Character("[saName]", color = '#9000ff')
+define saName = "SDK Sahi"
+define r = Character("[rName]", color = "#3bf441")
+define rName = "Raphael Recursion"
+define ic = Character ("[icName]", color = '#fecb3f')
+default icName = "???"
 
 #hello!
 
@@ -75,7 +78,7 @@ label start:
     doc "You're awake! How are you feeling?"
     p "ugh... I'm okay I guess. Who are you?"
     doc "I'm Dr. Polymorphism."
-    $ doc1 = "Dr. Polymorphism"
+    $ docName = "Dr. Polymorphism"
     p  "..." 
     p  "huh???"
 
@@ -183,10 +186,11 @@ label playAlong:
     show isaac_speaking
     doc "{i} *sigh* {/i}"
     doc "Hello, Isaac. Yes, this is our new agent, [playerName]. [playerName], this is our resident cleanup agent, Isaac Integer."
-    $ i1 = "Isaac Integer"
+    $ iName = "Isaac Integer"
     p "Hello!" 
     p "{i}...integer? is everyone here named this way?{/i}"
     i "HIII!!! It's so nice to meet you, [playerName]! Oh wow, you have such a nice name!"
+    $ iName = "Isaac"
     
     p "Thanks! You have such a pretty face!"
         #isaac likability points up by 5
@@ -205,7 +209,9 @@ label playAlong:
     show screen charMenuButton
 
     i "Oh, and this is my brother Damian!"
-    d "You can call me Mr. Double. I am the action strategist here at the A.P.C.S.A." 
+    $ dName = "Damian"
+    d "You can call me Mr. Double. I am the action strategist here at the A.P.C.S.A."
+    $ dName = "Mr. Double"
     p "{i}eek he's so menacing… i really don't want to die again today{/i}"
     p "Nice to meet you, Mr. Double."
     i "Are you guys going on a tour? Can I come??"
@@ -241,21 +247,23 @@ label meetOffice:
     p "i'd better address her with a formality like the other guy."
     p "Nice to meet you, Ms. String."
     si "[playerName], huh? Sierra is fine."
+    $ sName = "Sierra"
     i "Ice cold as always, isn't she. She scared me too the first time I saw her. Don't worry, you'll get used to it."
     menu:
         "No, no, not at all.":
             p "No, no, not at all. {i}sweat{/i}"
-        "Don't worry, I like them cold.":
-            p "Don't worry, I like them cold."
             #s points up by 5.
             si "I have a feeling we are going to get along very well, [playerName]"
+        "Don't worry, I like them cold.":
+            p "Don't worry, I like them cold."
             #damian's likability increase by 2
-            p "{i}...what exactly is going on here? don't tell me-{/i}"
+            p "{i}this place is full of freaks… good thing im freakyyy{/i}"
     
     doc "Oh, this is SDK Sahi, our on-base support. Sahi, this is [playerName]."
     sa "Hello! Nice to meet you [playerName].\nIf there's anything at all that you need here, just tell me and I'll see if I can take care of it for you!"
+    sa "Oh, and just Sahi is fine!"
+    $ saName = "Sahi"
     p "{i}finally, someone who doesn't look like they want to murder me{/i}"
-    #p "{i}she seems so nice!{/i}"
     p "Thank you, I appreciate it!"
     if equip: 
         pass
@@ -283,7 +291,7 @@ label meetEquipment:
     
     ic "Oh, who's this?"
     i "Oh hey Icarus! This is [playerName]. She's a guest agent!"
-    $ iname = "Icarus Inheritance"
+    $ icName = "Icarus"
     ic "Hello [playerName]. It's nice to meet you. I'm Icarus Inheritance."
     i "We call him Dorito though."
 # choices:
