@@ -48,8 +48,6 @@ label start:
     scene bg_school
     show mc at left 
 
-    call screen ticTacToeGame
-
     player "Oh no! I only have a minute to get to class! I gotta present my final project in Ms. Patil's class today!!!"
     #all the golf cart crash stuff
     show golf_kart_kun 
@@ -147,6 +145,5 @@ label playAlong:
             doc "For some reason, it's only allowing you to put O's!"
             menu:
                 "<Investigate>":
-                    #game and code split screens
                     call screen ticTacToeGame
     
