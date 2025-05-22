@@ -143,7 +143,7 @@ label playAlong:
     menu:
         "<Glance at board>":
             "There is a picture of tic tac toe on board."
-            player "Were you playing tic tac toe with another patient...?"
+            player "Were you playing tic tac toe with yourself...?"
             doc "lol jealous?"
             player "kinda ngl, why didn't you offer me a game? ;)"
             doc "well, the board started glitching when you came in :/"
