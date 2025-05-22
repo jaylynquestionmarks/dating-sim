@@ -173,16 +173,17 @@ label playAlong:
     p "{i} wait what? likability points? what are these?? {/i}"
     doc "Alright! Let's go into our main room then."
     "Dr. Polymorphism glances down at his tablet and looks confused."
-    player "..Is everything alright?"
+    p "..Is everything alright?"
     doc "So."
     doc "This is a bit awkward, but I was on break playing a game before you were brought in."
     doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
     menu:
-        "<Glance at board>":
-            "There is a picture of tic tac toe on board."
-            player "Were you playing tic tac toe with yourself...?"
+        "<Look at Dr. Polymorphism's tablet>":
+            "It's a tic tac toe board....."
+            p "Were you playing tic tac toe with yourself...?"
             doc "lol jealous?"
-            player "kinda ngl, why didn't you offer me a game? ;)"
+            p "..."
+            p "so what's the issue."
             doc "well, the board started glitching when you came in :/"
             doc "Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out."
             menu:
@@ -200,7 +201,10 @@ label playAlong:
                     hide screen o7
                     hide screen o8
     call screen ticTacToeGame(True)
-    doc ""
+    doc "Whoa, you actually fixed it!"
+    p "umm, rude"
+    doc "Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!"
+    doc "You'll see once you meet the team-- let's go!"
 
     scene bg_main_room with dissolve
     show mc at left
