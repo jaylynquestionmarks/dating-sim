@@ -8,18 +8,25 @@ define p = Character("[playerName]", color = "#ffffff", window_background=Frame(
 default playerName = "You"
 define doc = Character("[docName]", color = "#001368")
 default docName = "???"
+default docLikability = 35
 define i = Character("[iName]", color = "#ff8800")
 default iName = "???"
+default iLikability = 40
 define d = Character("[dName]", color = "#000000")
 define dName = "Damian Double"
+default dLikability = 25
 define si = Character("[sName]", color = '#979797')
 define sName = "Sierra String"
+default sLikability = 35
 define sa = Character("[saName]", color = '#9000ff')
 define saName = "SDK Sahi"
+default saLikability = 35
 define r = Character("[rName]", color = "#3bf441")
 define rName = "Raphael Recursion"
+default rLikability = 35
 define ic = Character ("[icName]", color = '#fecb3f')
 default icName = "???"
+default icLikability = 35
 
 #hello!
 
@@ -74,6 +81,7 @@ label splashscreen:
 
 label start:
 
+    show screen likability_bar(docLikability)
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     p "ugh... I'm okay I guess. Who are you?"
