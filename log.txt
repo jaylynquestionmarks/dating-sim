@@ -1,115 +1,223 @@
-2025-05-21 06:40:50 UTC
+2025-05-22 04:26:03 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.14s
-Loading error handling took 0.07s
-Loading script took 0.62s
-Loading save slot metadata took 0.33s
+Early init took 0.19s
+Loading error handling took 0.17s
+Loading script took 2.73s
+Loading save slot metadata took 0.62s
 Loading persistent took 0.00s
-Running init code took 0.20s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.35s
+Running init code took 0.16s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\IDK\\AppData\\Roaming/RenPy/backups\\dating-sim':
-Dump and make backups took 0.17s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.13s
+Initial gc took 0.11s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.02s
+Creating interface object took 0.01s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.17s
-Save screen analysis took 0.24s
-Prepare screens took 0.57s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.25s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.23s
+Save bytecode. took 0.11s
 Running _start took 0.00s
-Interface start took 1.50s
+Interface start took 1.89s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 2496, 1664)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics 620'
-Version: b'4.6.0 - Build 31.0.101.2130'
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 
 Full traceback:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+  File "game/script.rpy", line 176, in script
+    player "..Is everything alright?"
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
     Say.execute(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 623, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1471, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1117, in do_display
-    display_say(who,
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 814, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 2 more times]
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2177, in _scope
-    return self.set_text(self.text_parameter, scope, self.substitute, update)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2216, in set_text
-    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 373, in substitute
-    s = interpolate(s, variables) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 86, in interpolate
-    raise e
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 78, in interpolate
-    value = renpy.python.py_eval(code, {}, scope)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "<none>", line 1, in <module>
-NameError: name 'dname' is not defined
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'player' is not defined.
 
-While loading <renpy.display.im.Image object ('isaac_happy.png') at 0x0000000006adb520>:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-NameError: name 'dname' is not defined
+While running game code:
+  File "game/script.rpy", line 176, in script
+    player "..Is everything alright?"
+Exception: Sayer 'player' is not defined.
+Resetting cache.
+Early init took 169.92s
+Loading error handling took 0.06s
+Loading script took 0.35s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.16s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.88s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 176, in script
+    player "..Is everything alright?"
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'player' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 176, in script
+    player "..Is everything alright?"
+Exception: Sayer 'player' is not defined.
+Resetting cache.
+Early init took 182.02s
+Loading error handling took 0.04s
+Loading script took 0.40s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.87s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 243.03s
+Loading error handling took 0.04s
+Loading script took 0.41s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 192, in script call
+    call fixBug(doc, 3, "64", "$ turn = \"x\"")
+  File "game/fixBug.rpy", line 22, in script
+    player "Hold on-- that's not it."
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'player' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 192, in script call
+    call fixBug(doc, 3, "64", "$ turn = \"x\"")
+  File "game/fixBug.rpy", line 22, in script
+    player "Hold on-- that's not it."
+Exception: Sayer 'player' is not defined.

@@ -119,7 +119,7 @@ label start:
     p  "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     p  "No, hold on. Where am I? What is this place?"
-    doc "You're at __ Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
@@ -180,6 +180,39 @@ label playAlong:
     #doc likability points ^ by 3.
     p "{i} wait what? likability points? what are these?? {/i}"
     doc "Alright! Let's go into our main room then."
+    "Dr. Polymorphism glances down at his tablet and looks confused."
+    p "..Is everything alright?"
+    doc "So."
+    doc "This is a bit awkward, but I was on break playing a game before you were brought in."
+    doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
+    menu:
+        "<Look at Dr. Polymorphism's tablet>":
+            "It's a tic tac toe board....."
+            p "Were you playing tic tac toe with yourself...?"
+            doc "lol jealous?"
+            p "..."
+            p "so what's the issue."
+            doc "well, the board started glitching when you came in :/"
+            doc "Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out."
+            menu:
+                "<Investigate>":
+                    show screen ticTacToeGame(False)
+                    call fixBug(doc, 3, "64", "$ turn = \"x\"")
+                    hide screen ticTacToeGame
+                    hide screen o0
+                    hide screen o1
+                    hide screen o2
+                    hide screen o3
+                    hide screen o4
+                    hide screen o5
+                    hide screen o6
+                    hide screen o7
+                    hide screen o8
+    call screen ticTacToeGame(True)
+    doc "Whoa, you actually fixed it!"
+    p "umm, rude"
+    doc "Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!"
+    doc "You'll see once you meet the team-- let's go!"
 
     scene bg_main_room with dissolve
     show mc at left
