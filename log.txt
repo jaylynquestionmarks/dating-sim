@@ -1,37 +1,37 @@
-2025-05-22 06:44:01 UTC
+2025-05-22 07:10:45 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.14s
-Loading error handling took 0.09s
-Loading script took 0.82s
-Loading save slot metadata took 0.08s
+Early init took 0.27s
+Loading error handling took 0.71s
+Loading script took 7.15s
+Loading save slot metadata took 0.92s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
+Running init code took 0.45s
+Loading analysis data took 0.17s
+Analyze and compile ATL took 0.04s
+Reloading save slot metadata took 0.15s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.10s
+Dump and make backups took 0.34s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.12s
+Initial gc took 0.30s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+Creating interface object took 0.06s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.07s
-Prepare screens took 0.24s
-Save pyanalysis. took 0.07s
-Save bytecode. took 0.10s
-Running _start took 0.00s
-Interface start took 1.64s
+Load screen analysis took 0.23s
+Analyze screens took 0.11s
+Save screen analysis took 0.17s
+Prepare screens took 0.78s
+Save pyanalysis. took 0.13s
+Save bytecode. took 0.18s
+Running _start took 0.01s
+Interface start took 1.97s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -44,21 +44,63 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 52.24s
-Loading error handling took 0.07s
-Loading script took 0.43s
-Loading save slot metadata took 0.06s
+Early init took 159.53s
+Loading error handling took 0.10s
+Loading script took 0.60s
+Loading save slot metadata took 0.09s
 Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.06s
+Running init code took 0.11s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.09s
+Dump and make backups took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.17s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.45s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 190.07s
+Loading error handling took 0.05s
+Loading script took 0.42s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -70,10 +112,10 @@ Load screen analysis took 0.00s
 Analyze screens took 0.03s
 Save screen analysis took 0.06s
 Prepare screens took 0.21s
-Save pyanalysis. took 0.07s
-Save bytecode. took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
-Interface start took 0.96s
+Interface start took 1.01s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -86,31 +128,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 85.38s
-Loading error handling took 0.06s
-Loading script took 0.43s
+Early init took 218.13s
+Loading error handling took 0.04s
+Loading script took 0.46s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-<<<<<<< HEAD
-Running init code took 0.20s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.35s
-=======
 Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.06s
->>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\IDK\\AppData\\Roaming/RenPy/backups\\dating-sim':
-Dump and make backups took 0.17s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.19s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-<<<<<<< HEAD
-Initial gc took 0.13s
-=======
-Initial gc took 0.19s
+Initial gc took 0.20s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -120,11 +152,170 @@ Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.25s
+Save screen analysis took 0.07s
+Prepare screens took 0.35s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.06s
+Save bytecode. took 0.07s
 Running _start took 0.00s
+Interface start took 0.91s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 221.13s
+Loading error handling took 0.08s
+Loading script took 0.49s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 292: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.78s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 235.24s
+Loading error handling took 0.07s
+Loading script took 0.68s
+Loading save slot metadata took 0.12s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 292: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.53s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 238.64s
+Loading error handling took 0.06s
+Loading script took 0.44s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 293: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.55s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 245.07s
+Loading error handling took 0.06s
+Loading script took 0.46s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.89s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 268.56s
+Loading error handling took 0.07s
+Loading script took 0.50s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.01s
 Interface start took 0.98s
 
 Initializing gl2 renderer:
@@ -138,69 +329,224 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 101.05s
-Loading error handling took 0.04s
-Loading script took 0.42s
-Loading save slot metadata took 0.06s
+Early init took 271.79s
+Loading error handling took 0.05s
+Loading script took 0.56s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
 Running init code took 0.07s
-Loading analysis data took 0.03s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.11s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 0.95s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 274.94s
+Loading error handling took 0.05s
+Loading script took 0.31s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.36s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 277.92s
+Loading error handling took 0.04s
+Loading script took 0.55s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.85s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 294.93s
+Loading error handling took 0.05s
+Loading script took 0.49s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.09s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.20s
->>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14
+Initial gc took 0.25s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.02s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-<<<<<<< HEAD
-Load screen analysis took 0.01s
-Analyze screens took 0.17s
-Save screen analysis took 0.24s
-Prepare screens took 0.57s
-=======
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.07s
-Prepare screens took 0.22s
->>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14
+Analyze screens took 0.04s
+Save screen analysis took 0.11s
+Prepare screens took 0.32s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.23s
-Running _start took 0.00s
-<<<<<<< HEAD
-Interface start took 1.50s
-=======
-Interface start took 0.92s
->>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14
+Save bytecode. took 0.07s
+Running _start took 0.01s
+Interface start took 1.01s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 2496, 1664)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics 620'
-Version: b'4.6.0 - Build 31.0.101.2130'
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 132.18s
-Loading error handling took 0.06s
-Loading script took 0.76s
+Early init took 298.03s
+Loading error handling took 0.08s
+Loading script took 0.52s
 Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.07s
+Running init code took 0.06s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.06s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.47s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 301.56s
+Loading error handling took 0.04s
+Loading script took 0.54s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
 Dump and make backups took 0.16s
@@ -217,166 +563,11 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.04s
 Save screen analysis took 0.07s
-Prepare screens took 0.31s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
-Running _start took 0.01s
-Interface start took 1.06s
-
-<<<<<<< HEAD
-Full traceback:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 623, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1471, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1117, in do_display
-    display_say(who,
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 814, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 2 more times]
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2177, in _scope
-    return self.set_text(self.text_parameter, scope, self.substitute, update)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2216, in set_text
-    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 373, in substitute
-    s = interpolate(s, variables) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 86, in interpolate
-    raise e
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 78, in interpolate
-    value = renpy.python.py_eval(code, {}, scope)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "<none>", line 1, in <module>
-NameError: name 'dname' is not defined
-
-While loading <renpy.display.im.Image object ('isaac_happy.png') at 0x0000000006adb520>:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-NameError: name 'dname' is not defined
-=======
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2496, 1664)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Xe Graphics'
-Version: b'4.6.0 - Build 32.0.101.6129'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 218.94s
-Loading error handling took 0.26s
-Loading script took 1.71s
-Loading save slot metadata took 0.20s
-Loading persistent took 0.00s
-Running init code took 0.20s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.11s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.27s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.13s
-Prepare screens took 0.39s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
-Running _start took 0.01s
-Interface start took 1.88s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2496, 1664)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Xe Graphics'
-Version: b'4.6.0 - Build 32.0.101.6129'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 242.70s
-Loading error handling took 0.07s
-Loading script took 0.68s
-Loading save slot metadata took 0.13s
-Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.28s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.29s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.08s
-Prepare screens took 0.37s
+Prepare screens took 0.34s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.07s
 Running _start took 0.00s
-Interface start took 1.95s
+Interface start took 1.33s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -389,36 +580,19 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 262.85s
-Loading error handling took 0.09s
-Loading script took 0.94s
-Loading save slot metadata took 0.12s
+Early init took 309.15s
+Loading error handling took 0.07s
+Loading script took 0.60s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.26s
-Loading analysis data took 0.11s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.18s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.35s
+
+File "game/script.rpy", line 270: multiple at clauses are prohibited.
+    show issac_happy at rightissac_speaking at right
+                                              ^
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.10s
-Prepare screens took 0.46s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
-Running _start took 0.01s
-Interface start took 1.64s
+Interface start took 0.76s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -431,21 +605,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 267.99s
-Loading error handling took 0.07s
-Loading script took 0.65s
-Loading save slot metadata took 0.07s
+Early init took 311.22s
+Loading error handling took 0.10s
+Loading script took 0.74s
+Loading save slot metadata took 0.10s
 Loading persistent took 0.00s
-Running init code took 0.11s
+Running init code took 0.14s
 Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.17s
+Dump and make backups took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.26s
+Initial gc took 0.19s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -454,12 +628,12 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.07s
-Prepare screens took 0.38s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.29s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.07s
-Running _start took 0.01s
+Running _start took 0.00s
 Interface start took 1.10s
 
 Initializing gl2 renderer:
@@ -473,36 +647,19 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 304.11s
-Loading error handling took 0.09s
-Loading script took 0.83s
-Loading save slot metadata took 0.15s
+Early init took 317.01s
+Loading error handling took 0.07s
+Loading script took 0.52s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.33s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.50s
+
+File "game/script.rpy", line 273: expected statement.
+    issac_speaking at right
+                   ^
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.09s
-Prepare screens took 0.27s
-Save pyanalysis. took 0.07s
-Save bytecode. took 0.06s
-Running _start took 0.01s
-Interface start took 1.62s
+Interface start took 0.51s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -515,36 +672,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 308.98s
-Loading error handling took 0.06s
-Loading script took 0.78s
-Loading save slot metadata took 0.12s
+Early init took 321.81s
+Loading error handling took 0.05s
+Loading script took 0.48s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.16s
-Loading analysis data took 0.05s
+Running init code took 0.11s
+Loading analysis data took 0.07s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Reloading save slot metadata took 0.10s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.35s
+Dump and make backups took 0.23s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.41s
+Initial gc took 0.21s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.07s
 Save screen analysis took 0.10s
-Prepare screens took 0.55s
-Save pyanalysis. took 0.09s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Interface start took 1.82s
+Prepare screens took 0.46s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.01s
+Interface start took 1.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -557,36 +714,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 314.66s
-Loading error handling took 0.12s
-Loading script took 0.96s
-Loading save slot metadata took 0.11s
+Early init took 325.37s
+Loading error handling took 0.04s
+Loading script took 0.32s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.07s
+Running init code took 0.06s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.11s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.24s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.29s
+Initial gc took 0.20s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.07s
-Prepare screens took 0.38s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
-Running _start took 0.01s
-Interface start took 1.40s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.91s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -599,62 +756,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 362.17s
-Loading error handling took 0.07s
-Loading script took 0.56s
-Loading save slot metadata took 0.10s
+Early init took 358.40s
+Loading error handling took 0.06s
+Loading script took 0.53s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.05s
+Running init code took 0.07s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.07s
 Index archives took 0.00s
-Dump and make backups took 0.15s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.26s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.12s
-Analyze screens took 0.01s
-Save screen analysis took 0.00s
-Prepare screens took 0.42s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 1.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2496, 1664)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Xe Graphics'
-Version: b'4.6.0 - Build 32.0.101.6129'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 395.04s
-Loading error handling took 0.09s
-Loading script took 1.12s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.08s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.17s
-Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.25s
+Dump and make backups took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.34s
+Initial gc took 0.17s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -663,12 +779,12 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.08s
-Save screen analysis took 0.14s
-Prepare screens took 0.50s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.35s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.10s
-Running _start took 0.01s
+Save bytecode. took 0.06s
+Running _start took 0.00s
 Interface start took 1.71s
 
 Initializing gl2 renderer:
@@ -682,21 +798,699 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 535.30s
-Loading error handling took 0.09s
-Loading script took 0.96s
-Loading save slot metadata took 0.10s
+Early init took 366.11s
+Loading error handling took 0.06s
+Loading script took 0.45s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.06s
+Running init code took 0.07s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.13s
+Reloading save slot metadata took 0.06s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.25s
+Dump and make backups took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.30s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.95s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 373.75s
+Loading error handling took 0.05s
+Loading script took 0.39s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 387.09s
+Loading error handling took 0.06s
+Loading script took 0.52s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 298: expected 'image_name_component' not found.
+    hide 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.58s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 391.98s
+Loading error handling took 0.05s
+Loading script took 0.56s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 399.28s
+Loading error handling took 0.06s
+Loading script took 0.53s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.00s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 422.57s
+Loading error handling took 0.06s
+Loading script took 0.44s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.89s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 438.09s
+Loading error handling took 0.05s
+Loading script took 0.51s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.92s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 451.42s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 489.25s
+Loading error handling took 0.04s
+Loading script took 0.59s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.09s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 492.89s
+Loading error handling took 0.05s
+Loading script took 0.53s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.02s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 501.47s
+Loading error handling took 0.04s
+Loading script took 0.55s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 505.35s
+Loading error handling took 0.07s
+Loading script took 0.58s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 309: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.54s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 508.70s
+Loading error handling took 0.04s
+Loading script took 0.53s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.17s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.19s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 512.24s
+Loading error handling took 0.06s
+Loading script took 0.43s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 515.28s
+Loading error handling took 0.05s
+Loading script took 0.43s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.22s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.01s
+Interface start took 1.45s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 521.19s
+Loading error handling took 0.05s
+Loading script took 0.68s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 539.49s
+Loading error handling took 0.05s
+Loading script took 0.43s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.01s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 549.97s
+Loading error handling took 0.08s
+Loading script took 0.67s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.29s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -706,12 +1500,12 @@ Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.05s
-Save screen analysis took 0.09s
-Prepare screens took 0.27s
-Save pyanalysis. took 0.06s
-Save bytecode. took 0.08s
-Running _start took 0.01s
-Interface start took 1.39s
+Save screen analysis took 0.06s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.22s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -724,19 +1518,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 569.54s
-Loading error handling took 0.10s
-Loading script took 0.75s
-Loading save slot metadata took 0.07s
+Early init took 615.07s
+Loading error handling took 0.04s
+Loading script took 0.57s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 123: expected 'image_name_component' not found.
-    hide 
-         ^
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.44s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.55s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -749,15 +1560,57 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 580.59s
+Early init took 622.23s
 Loading error handling took 0.06s
-Loading script took 0.78s
-Loading save slot metadata took 0.09s
+Loading script took 0.46s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.17s
-Loading analysis data took 0.06s
+Running init code took 0.06s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.11s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.46s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 625.81s
+Loading error handling took 0.06s
+Loading script took 0.55s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
 Dump and make backups took 0.16s
@@ -770,15 +1623,15 @@ nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.14s
-Save screen analysis took 0.13s
-Prepare screens took 0.33s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.26s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
+Save bytecode. took 0.04s
 Running _start took 0.00s
-Interface start took 2.20s
+Interface start took 1.29s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -791,21 +1644,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 585.62s
+Early init took 634.92s
 Loading error handling took 0.07s
-Loading script took 0.59s
-Loading save slot metadata took 0.08s
+Loading script took 0.61s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.16s
+Running init code took 0.09s
 Loading analysis data took 0.06s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.20s
+Dump and make backups took 0.15s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.37s
+Initial gc took 0.25s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -814,11 +1667,1106 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.10s
-Save screen analysis took 0.13s
-Prepare screens took 0.42s
+Analyze screens took 0.05s
+Save screen analysis took 0.06s
+Prepare screens took 0.36s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 656.93s
+Loading error handling took 0.04s
+Loading script took 0.25s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 708.39s
+Loading error handling took 0.05s
+Loading script took 0.44s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.38s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 0.91s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 720.46s
+Loading error handling took 0.04s
+Loading script took 0.50s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 732.34s
+Loading error handling took 0.05s
+Loading script took 0.51s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 747.45s
+Loading error handling took 0.06s
+Loading script took 0.57s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 759.15s
+Loading error handling took 0.04s
+Loading script took 0.50s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.95s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 765.42s
+Loading error handling took 0.05s
+Loading script took 0.41s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.98s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 773.78s
+Loading error handling took 0.07s
+Loading script took 0.65s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 789.71s
+Loading error handling took 0.06s
+Loading script took 0.48s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.92s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 794.90s
+Loading error handling took 0.06s
+Loading script took 0.63s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.12s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 805.57s
+Loading error handling took 0.04s
+Loading script took 0.54s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.98s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 819.35s
+Loading error handling took 0.07s
+Loading script took 0.62s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.44s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 827.16s
+Loading error handling took 0.05s
+Loading script took 0.58s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.40s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 830.95s
+Loading error handling took 0.06s
+Loading script took 0.51s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.09s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 843.05s
+Loading error handling took 0.05s
+Loading script took 0.53s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.31s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.44s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 852.25s
+Loading error handling took 0.05s
+Loading script took 0.65s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 877.97s
+Loading error handling took 0.04s
+Loading script took 0.34s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 940.62s
+Loading error handling took 0.08s
+Loading script took 0.61s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.31s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.09s
+Prepare screens took 0.25s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.44s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 946.86s
+Loading error handling took 0.06s
+Loading script took 0.58s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.30s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.40s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.45s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 965.25s
+Loading error handling took 0.06s
+Loading script took 0.58s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 371: expected statement.
+    h
+     ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.60s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 971.68s
+Loading error handling took 0.06s
+Loading script took 0.42s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.18s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.01s
+Interface start took 1.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 993.73s
+Loading error handling took 0.06s
+Loading script took 0.57s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.06s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.44s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1001.35s
+Loading error handling took 0.07s
+Loading script took 0.58s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1004.92s
+Loading error handling took 0.07s
+Loading script took 0.44s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 378: Indentation mismatch.
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.63s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1008.25s
+Loading error handling took 0.06s
+Loading script took 0.68s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.25s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.19s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1063.97s
+Loading error handling took 0.07s
+Loading script took 0.49s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1071.17s
+Loading error handling took 0.05s
+Loading script took 0.48s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.09s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Interface start took 1.41s
 
@@ -833,36 +2781,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 597.62s
-Loading error handling took 0.10s
-Loading script took 0.74s
-Loading save slot metadata took 0.14s
+Early init took 1074.79s
+Loading error handling took 0.04s
+Loading script took 0.39s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.15s
+Dump and make backups took 0.13s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.27s
+Initial gc took 0.21s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.12s
-Prepare screens took 0.51s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.20s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.10s
-Running _start took 0.01s
-Interface start took 1.84s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.31s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -875,17 +2823,18 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 614.39s
-Loading error handling took 0.07s
-Loading script took 0.67s
-Loading save slot metadata took 0.12s
+Early init took 1080.13s
+Loading error handling took 0.06s
+Loading script took 0.53s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.12s
+Running init code took 0.09s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
-Dump and make backups took 0.14s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.26s
@@ -896,12 +2845,331 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.15s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.25s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.39s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1083.84s
+Loading error handling took 0.04s
+Loading script took 0.49s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1087.37s
+Loading error handling took 0.04s
+Loading script took 0.54s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.24s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.09s
+Prepare screens took 0.41s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1093.01s
+Loading error handling took 0.07s
+Loading script took 0.81s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1100.81s
+Loading error handling took 0.07s
+Loading script took 0.54s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.28s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.08s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1117.39s
+Loading error handling took 0.05s
+Loading script took 0.52s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 418: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.62s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1122.23s
+Loading error handling took 0.05s
+Loading script took 0.77s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.40s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1131.23s
+Loading error handling took 0.07s
+Loading script took 0.51s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.28s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 1.54s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1141.58s
+Loading error handling took 0.04s
+Loading script took 0.37s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.32s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
 Running _start took 0.00s
 Interface start took 1.48s
 
@@ -916,19 +3184,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 618.41s
-Loading error handling took 0.08s
-Loading script took 0.74s
-Loading save slot metadata took 0.14s
+Early init took 1145.33s
+Loading error handling took 0.04s
+Loading script took 0.56s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 60: expected 'simple_expression' not found.
-    ypos 
-         ^
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.47s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.01s
+Interface start took 1.29s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -941,14 +3226,879 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 626.65s
-Loading error handling took 0.09s
-Loading script took 1.04s
-Loading save slot metadata took 0.16s
+Early init took 1157.13s
+Loading error handling took 0.04s
+Loading script took 0.43s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.45s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1166.04s
+Loading error handling took 0.06s
+Loading script took 0.62s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1173.53s
+Loading error handling took 0.03s
+Loading script took 0.45s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1180.53s
+Loading error handling took 0.05s
+Loading script took 0.52s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.36s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1189.40s
+Loading error handling took 0.05s
+Loading script took 0.59s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.09s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1195.32s
+Loading error handling took 0.07s
+Loading script took 0.53s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.09s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.01s
+Interface start took 1.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1204.03s
+Loading error handling took 0.05s
+Loading script took 0.68s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.15s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.30s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1218.98s
+Loading error handling took 0.05s
+Loading script took 0.43s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.00s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1225.91s
+Loading error handling took 0.06s
+Loading script took 0.65s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.31s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.09s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 1.58s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1233.93s
+Loading error handling took 0.07s
+Loading script took 0.51s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.28s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1239.22s
+Loading error handling took 0.06s
+Loading script took 0.47s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.08s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1248.17s
+Loading error handling took 0.08s
+Loading script took 0.64s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.29s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.08s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.47s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1251.94s
+Loading error handling took 0.05s
+Loading script took 0.53s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.52s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1259.45s
+Loading error handling took 0.06s
+Loading script took 0.49s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.28s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1273.18s
+Loading error handling took 0.07s
+Loading script took 0.46s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.36s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1276.85s
+Loading error handling took 0.07s
+Loading script took 0.40s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 437: expected 'image_name_component' not found.
+    show 
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.73s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1278.83s
+Loading error handling took 0.05s
+Loading script took 0.68s
+Loading save slot metadata took 0.13s
 Loading persistent took 0.00s
 Running init code took 0.18s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.19s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.09s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.09s
+Running _start took 0.01s
+Interface start took 1.57s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1283.10s
+Loading error handling took 0.05s
+Loading script took 0.44s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1289.55s
+Loading error handling took 0.05s
+Loading script took 0.55s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1293.12s
+Loading error handling took 0.05s
+Loading script took 0.63s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.40s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1301.99s
+Loading error handling took 0.05s
+Loading script took 0.56s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.30s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.35s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.47s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1320.11s
+Loading error handling took 0.05s
+Loading script took 0.69s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.08s
 Loading analysis data took 0.06s
-Analyze and compile ATL took 0.02s
+Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
@@ -964,13 +4114,13 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.10s
-Prepare screens took 0.31s
-Save pyanalysis. took 0.06s
-Save bytecode. took 0.06s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
-Interface start took 1.98s
+Interface start took 1.63s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -983,60 +4133,18 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 631.81s
-Loading error handling took 0.08s
-Loading script took 0.87s
-Loading save slot metadata took 0.14s
-Loading persistent took 0.00s
-Running init code took 0.16s
-Loading analysis data took 0.08s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.28s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.30s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.07s
-Save screen analysis took 0.10s
-Prepare screens took 0.53s
-Save pyanalysis. took 0.09s
-Save bytecode. took 0.09s
-Running _start took 0.01s
-Interface start took 1.47s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2496, 1664)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Xe Graphics'
-Version: b'4.6.0 - Build 32.0.101.6129'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 636.70s
+Early init took 1326.43s
 Loading error handling took 0.06s
-Loading script took 0.79s
+Loading script took 0.58s
 Loading save slot metadata took 0.08s
 Loading persistent took 0.00s
 Running init code took 0.09s
-Loading analysis data took 0.05s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.17s
+Dump and make backups took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.23s
@@ -1048,13 +4156,13 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.08s
-Save screen analysis took 0.09s
-Prepare screens took 0.43s
-Save pyanalysis. took 0.11s
-Save bytecode. took 0.07s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
 Running _start took 0.00s
-Interface start took 1.66s
+Interface start took 1.53s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -1067,21 +4175,63 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 641.20s
+Early init took 1330.11s
 Loading error handling took 0.06s
-Loading script took 0.83s
-Loading save slot metadata took 0.11s
+Loading script took 0.67s
+Loading save slot metadata took 0.10s
 Loading persistent took 0.00s
-Running init code took 0.19s
-Loading analysis data took 0.05s
+Running init code took 0.13s
+Loading analysis data took 0.06s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.10s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.16s
+Dump and make backups took 0.15s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.28s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 1.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1340.44s
+Loading error handling took 0.05s
+Loading script took 0.54s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.15s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -1091,12 +4241,12 @@ Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.05s
-Save screen analysis took 0.09s
-Prepare screens took 0.23s
-Save pyanalysis. took 0.07s
-Save bytecode. took 0.07s
-Running _start took 0.01s
-Interface start took 1.71s
+Save screen analysis took 0.08s
+Prepare screens took 0.34s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.41s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -1109,21 +4259,481 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 645.84s
-Loading error handling took 0.13s
-Loading script took 1.04s
+Early init took 1344.16s
+Loading error handling took 0.05s
+Loading script took 0.45s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.78s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1348.24s
+Loading error handling took 0.06s
+Loading script took 0.48s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.22s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1358.74s
+Loading error handling took 0.05s
+Loading script took 0.32s
 Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.07s
+Running init code took 0.10s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.14s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.88s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1396.68s
+Loading error handling took 0.06s
+Loading script took 0.77s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.62s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1400.60s
+Loading error handling took 0.05s
+Loading script took 0.57s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.34s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 1.41s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1408.04s
+Loading error handling took 0.04s
+Loading script took 0.53s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.06s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.69s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1412.04s
+Loading error handling took 0.06s
+Loading script took 0.46s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.40s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 1.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1420.15s
+Loading error handling took 0.09s
+Loading script took 0.50s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.07s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 1.52s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1423.96s
+Loading error handling took 0.04s
+Loading script took 0.61s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.09s
+Prepare screens took 0.49s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1427.88s
+Loading error handling took 0.05s
+Loading script took 0.47s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.32s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 0.97s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1432.99s
+Loading error handling took 0.06s
+Loading script took 0.78s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1464.58s
+Loading error handling took 0.07s
+Loading script took 0.48s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
 Dump and make backups took 0.18s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.35s
+Initial gc took 0.27s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -1132,13 +4742,13 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.06s
+Analyze screens took 0.05s
 Save screen analysis took 0.10s
-Prepare screens took 0.58s
-Save pyanalysis. took 0.09s
+Prepare screens took 0.51s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.06s
 Running _start took 0.00s
-Interface start took 1.80s
+Interface start took 1.23s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -1151,21 +4761,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 708.55s
-Loading error handling took 0.11s
-Loading script took 0.71s
+Early init took 1468.37s
+Loading error handling took 0.08s
+Loading script took 0.57s
 Loading save slot metadata took 0.09s
 Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.05s
+Running init code took 0.08s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.10s
+Reloading save slot metadata took 0.07s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.19s
+Dump and make backups took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.35s
+Initial gc took 0.23s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -1174,13 +4784,13 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.08s
-Save screen analysis took 0.11s
-Prepare screens took 0.47s
-Save pyanalysis. took 0.07s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.06s
 Running _start took 0.00s
-Interface start took 1.26s
+Interface start took 1.44s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -1193,36 +4803,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 741.48s
-Loading error handling took 0.06s
-Loading script took 0.68s
-Loading save slot metadata took 0.10s
+Early init took 1475.95s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.09s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
-Dump and make backups took 0.20s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.39s
+Initial gc took 0.22s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.10s
-Save screen analysis took 0.12s
-Prepare screens took 0.51s
-Save pyanalysis. took 0.10s
-Save bytecode. took 0.11s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
-Interface start took 1.67s
+Interface start took 0.97s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2496, 1664)
@@ -1234,4 +4844,94 @@ Version: b'4.6.0 - Build 32.0.101.6129'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
 Maximum texture size: 4096x4096
->>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14
+Resetting cache.
+Early init took 1525.52s
+Loading error handling took 0.06s
+Loading script took 0.41s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Interface start took 1.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1535.37s
+Loading error handling took 0.04s
+Loading script took 0.43s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jayly\\AppData\\Roaming/RenPy/backups\\datingsim':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.99s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2496, 1664)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 32.0.101.6129'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2394, 1347) drawable=(2394, 1347)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s

@@ -262,12 +262,16 @@ label playAlong:
     i "oh"
     i "my"
     i "GODDDD!!! Petey, is this our new agent???"
-    show issac_speaking
     doc "{i} *sigh* {/i}"
     doc "Hello, Isaac. Yes, this is our new agent, [playerName]. [playerName], this is our resident cleanup agent, Isaac Integer."
     $ iName = "Isaac Integer"
+    hide doctor
+    hide issac_happy
+    show issac_happy at right
     p "Hello!" 
     p "{i}...integer? is everyone here named this way?{/i}"
+    hide issac_happy
+    show issac_speaking at right
     i "HIII!!! It's so nice to meet you, [playerName]! Oh wow, you have such a nice name!"
     $ iName = "Isaac"
     
@@ -288,15 +292,30 @@ label playAlong:
     show screen charMenuButton
     # $ renpy.pause(hard = True)
 
+    show damian_normal at center
     i "Oh, and this is my brother Damian!"
     $ dName = "Damian"
+    hide issac_speaking
+    show issac_normal at right
+    hide damian_normal
+    show damian_speaking 
     d "You can call me Mr. Double. I am the action strategist here at the A.P.C.S.A."
     $ dName = "Mr. Double"
+    hide damian_speaking
+    show damian_normal
     p "{i}eek he's so menacing… i really don't want to die again today{/i}"
     p "Nice to meet you, Mr. Double."
+    hide damian_normal
+    hide issac_normal
+    show issac_speaking
+    show doctor at right
     i "Are you guys going on a tour? Can I come??"
+    hide issac_speaking
+    show issac_normal
     doc "{i} sigh {/i}"
     doc "I mean, if you want to. Let's keep moving then."
+    hide issac_normal
+    show issac_happy
     doc "[playerName] did you want to see our equipment room first or see our main reporting office?"
     menu:
         "\"The equipment room sounds pretty cool!\"":
@@ -308,11 +327,16 @@ label playAlong:
 
         "\"Um, the office?\"":
             p "Um, the office?"
+            hide issac_happy
+            show damian_speaking
             d "I'll suppose I'll join you as well."
             #likability up by 2 
             p "{i}what's with this guy?{/i}"
             p "{i}is there someone he wants to murder there? or-{/i}"
+            hide damian_speaking
+            show issac_speaking
             i "Awesome, let's go!!!"
+            hide issac_speaking
             $ equip = False
             jump meetOffice
 
@@ -321,37 +345,75 @@ label meetOffice:
     doc "Here we are, in the main reporting office." 
     doc "..."
     doc "Well it looks empty right now, but there are usually more people here."
+    show sierra_normal
     doc "Oh, this is Sierra String. She's our journalist. Sierra, this is [playerName]. She's our new guest agent."
+    hide sierra_normal
+    show sierra_speaking
     si  "Hello."
+    hide sierra_speaking
+    show sierra_normal
     p "{i}what… another murderous looking person already? why?{/i}"
     p "i'd better address her with a formality like the other guy."
     p "Nice to meet you, Ms. String."
+    hide sierra_normal
+    show sierra_happy
     si "[playerName], huh? Sierra is fine."
     $ sName = "Sierra"
+    hide sierra_happy
+    hide doctor
+    show issac_speaking at right
+    show sierra_normal
     i "Ice cold as always, isn't she. She scared me too the first time I saw her. Don't worry, you'll get used to it."
     menu:
         "No, no, not at all.":
             p "No, no, not at all. {i}sweat{/i}"
             #s points up by 5.
+            hide sierra_normal
+            show sierra_happy
+            hide issac_speaking
+            show issac_normal at right
             si "I have a feeling we are going to get along very well, [playerName]"
+            hide sierra_happy
         "Don't worry, I like them cold.":
+            hide issac_speaking
+            show issac_normal at right
             p "Don't worry, I like them cold."
             #damian's likability increase by 2
             p "{i}this place is full of freaks… good thing im freakyyy{/i}"
+            hide sierra_normal
     
+    hide issac_normal
+    show doctor at right
+    show sahi_normal    
+
     doc "Oh, this is SDK Sahi, our on-base support. Sahi, this is [playerName]."
+
+    hide sahi_normal
+    show sahi_speaking
     sa "Hello! Nice to meet you [playerName].\nIf there's anything at all that you need here, just tell me and I'll see if I can take care of it for you!"
+    hide sahi_speaking
+    show sahi_happy
     sa "Oh, and just Sahi is fine!"
     $ saName = "Sahi"
+    hide sahi_happy
+    show sahi_normal
     p "{i}finally, someone who doesn't look like they want to murder me{/i}"
     p "Thank you, I appreciate it!"
+    hide sahi_normal
+
     if equip: 
         pass
     else:
         doc "Alright [playerName], let's get you stocked up. We're going to the equipment room next."
+        show damian_speaking
         d "You guys go ahead. I'll stay here with Sierra."
+        hide damian_speaking
+        show sahi_speaking
         sa "I have some things to do too. Sorry I can't come with you. But we'll see each other again soon!"
+        hide sahi_speaking
+        show issac_speaking
         i "Let's go!"
+        hide issac_speaking
         jump meetEquipment
 
 label meetEquipment:
@@ -369,10 +431,23 @@ label meetEquipment:
             #doctor's likability increase by 5
             p "{i}wow so even doctors can dislike people…{/i}" #something more witty than this
     
+    show icarus_speaking
     ic "Oh, who's this?"
+    hide icarus_speaking
+    hide doctor
+    show icarus_normal
+    show issac_speaking at right
     i "Oh hey Icarus! This is [playerName]. She's a guest agent!"
     $ icName = "Icarus"
+    hide issac_speaking
+    show issac_normal at right
+    hide icarus_normal
+    show icarus_speaking
     ic "Hello [playerName]. It's nice to meet you. I'm Icarus Inheritance."
+    hide icarus_speaking
+    show icarus_normal
+    hide issac_normal
+    show issac_speaking at right
     i "We call him Dorito though."
 # choices:
 # <“Let me guess, because of the bag of doritos?”>
