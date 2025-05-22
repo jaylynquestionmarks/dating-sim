@@ -201,7 +201,7 @@ label playAlong:
                     hide screen o7
                     hide screen o8
     call screen ticTacToeGame(True)
-    doc "Whoa, you actually fixed it!"
+    doc "Whoa, you actually fixed it?"
     p "umm, rude"
     doc "Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!"
     doc "You'll see once you meet the team-- let's go!"

@@ -1,7 +1,7 @@
 #flip tiles game?
 
 transform shrink:
-    zoom 0.35
+    zoom 0.3
 
 screen ticTacToeGame(fixed):
 
@@ -20,7 +20,7 @@ screen ticTacToeGame(fixed):
     default win = False
 
     if fixed != True:
-        add "ttt_code_sc.png" zoom 0.55 xpos 1130 ypos 300
+        add "ttt_code_sc.png" zoom 0.65 xpos 1030 ypos 150
 
     imagemap:
         xpos 400
