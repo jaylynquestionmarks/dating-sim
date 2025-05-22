@@ -1,9 +1,9 @@
 #flip tiles game?
 
 transform shrink:
-    zoom 0.4
+    zoom 0.35
 
-screen ticTacToeGame:
+screen ticTacToeGame(fixed):
 
     #board
     default i0 = ""
@@ -19,9 +19,12 @@ screen ticTacToeGame:
     default turn = "o"
     default win = False
 
+    if fixed != True:
+        add "ttt_code_sc.png" zoom 0.55 xpos 1130 ypos 300
+
     imagemap:
         xpos 400
-        ypos 200
+        ypos 100
         ground "board.png"
         at shrink
 
@@ -32,7 +35,7 @@ screen ticTacToeGame:
             else:
                 text "{size=*3}O WINS!{/size}" xpos 740 ypos 1800
         elif i0 != "" and i1 != "" and i2 != "" and i3 != "" and i4 != "" and i5 != "" and i6 != "" and i7 != "" and i8 != "":
-            text "TIE!"
+            text "{size=*3}TIE!{/size}" xpos 830 ypos 1800
 
         #hotspots are areas on an image that you can click on to make the game do stuff
         #the $ indicates that the following line is a line of python
@@ -61,69 +64,74 @@ screen ticTacToeGame:
                 hotspot(680, 1285, 523, 489) action [Show("o7"), Hide("x7"), SetScreenVariable("i7", "o")]
                 hotspot(1233, 1278, 501, 490) action [Show("o8"), Hide("x8"), SetScreenVariable("i8", "o")]
 
-                $ turn = "o"
+                if fixed == False:
+                    $ turn = "o"
+                else:
+                    $ turn = "x"
     
         textbutton "{size=*2}Clear Board{/size}":
             xpos 50
             ypos 100
             action Hide("x0"), Hide("x1"), Hide("x2"), Hide("x3"), Hide("x4"), Hide("x5"), Hide("x6"), Hide("x7"), Hide("x8"), Hide("o0"), Hide("o1"), Hide("o2"), Hide("o3"), Hide("o4"), Hide("o5"), Hide("o6"), Hide("o7"), Hide("o8"), SetScreenVariable("i0", ""), SetScreenVariable("i1", ""), SetScreenVariable("i2", ""), SetScreenVariable("i3", ""), SetScreenVariable("i4", ""), SetScreenVariable("i5", ""), SetScreenVariable("i6", ""), SetScreenVariable("i7", ""), SetScreenVariable("i8", ""), SetScreenVariable("win", False)
 
-        textbutton "{size=*2}Submit{/size}":
-            xpos 1700
-            ypos 100
-            action Hide("x0"), Hide("x1"), Hide("x2"), Hide("x3"), Hide("x4"), Hide("x5"), Hide("x6"), Hide("x7"), Hide("x8"), Hide("o0"), Hide("o1"), Hide("o2"), Hide("o3"), Hide("o4"), Hide("o5"), Hide("o6"), Hide("o7"), Hide("o8"), Return()
+        if fixed:
+            textbutton "{size=*2}Continue{/size}":
+                xpos 1600
+                ypos 100
+                action Hide("x0"), Hide("x1"), Hide("x2"), Hide("x3"), Hide("x4"), Hide("x5"), Hide("x6"), Hide("x7"), Hide("x8"), Hide("o0"), Hide("o1"), Hide("o2"), Hide("o3"), Hide("o4"), Hide("o5"), Hide("o6"), Hide("o7"), Hide("o8"), Return()
+
 
 screen x0():
-    add "x0.png" at shrink xpos 400 ypos 200
+    add "x0.png" at shrink xpos 400 ypos 100
 
 screen x1():
-    add "x1.png" at shrink xpos 400 ypos 200
+    add "x1.png" at shrink xpos 400 ypos 100
 
 screen x2():
-    add "x2.png" at shrink xpos 400 ypos 200
+    add "x2.png" at shrink xpos 400 ypos 100
 
 screen x3():
-    add "x3.png" at shrink xpos 400 ypos 200
+    add "x3.png" at shrink xpos 400 ypos 100
 
 screen x4():
-    add "x4.png" at shrink xpos 400 ypos 200
+    add "x4.png" at shrink xpos 400 ypos 100
 
 screen x5():
-    add "x5.png" at shrink xpos 400 ypos 200
+    add "x5.png" at shrink xpos 400 ypos 100
 
 screen x6():
-    add "x6.png" at shrink xpos 400 ypos 200
+    add "x6.png" at shrink xpos 400 ypos 100
 
 screen x7():
-    add "x7.png" at shrink xpos 400 ypos 200
+    add "x7.png" at shrink xpos 400 ypos 100
 
 screen x8():
-    add "x8.png" at shrink xpos 400 ypos 200
+    add "x8.png" at shrink xpos 400 ypos 100
 
 
 screen o0():
-    add "o0.png" at shrink xpos 400 ypos 200
+    add "o0.png" at shrink xpos 400 ypos 100
 
 screen o1():
-    add "o1.png" at shrink xpos 400 ypos 200
+    add "o1.png" at shrink xpos 400 ypos 100
 
 screen o2():
-    add "o2.png" at shrink xpos 400 ypos 200
+    add "o2.png" at shrink xpos 400 ypos 100
 
 screen o3():
-    add "o3.png" at shrink xpos 400 ypos 200
+    add "o3.png" at shrink xpos 400 ypos 100
 
 screen o4():
-    add "o4.png" at shrink xpos 400 ypos 200
+    add "o4.png" at shrink xpos 400 ypos 100
 
 screen o5():
-    add "o5.png" at shrink xpos 400 ypos 200
+    add "o5.png" at shrink xpos 400 ypos 100
 
 screen o6():
-    add "o6.png" at shrink xpos 400 ypos 200
+    add "o6.png" at shrink xpos 400 ypos 100
 
 screen o7():
-    add "o7.png" at shrink xpos 400 ypos 200
+    add "o7.png" at shrink xpos 400 ypos 100
 
 screen o8():
-    add "o8.png" at shrink xpos 400 ypos 200
+    add "o8.png" at shrink xpos 400 ypos 100
