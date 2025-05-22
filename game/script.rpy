@@ -305,13 +305,13 @@ label playAlong:
     show damian_normal
     p "{i}eek he's so menacing… i really don't want to die again today{/i}"
     p "Nice to meet you, Mr. Double."
-    hide damian_normal
     hide issac_normal
-    show issac_speaking
-    show doctor at right
+    show issac_speaking at right
     i "Are you guys going on a tour? Can I come??"
     hide issac_speaking
     show issac_normal
+    hide damian_normal
+    show doctor at right
     doc "{i} sigh {/i}"
     doc "I mean, if you want to. Let's keep moving then."
     hide issac_normal
