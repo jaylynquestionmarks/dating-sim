@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 35: 'action' is not a keyword argument or valid child of the fixed statement.
-    action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1)]
-          ^
+File "game/screens.rpy", line 117: Line is indented, but the preceding modal statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    key "mouseup_1" action NullAction()
+    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Mon May 19 19:39:21 2025
+Wed May 21 14:17:01 2025

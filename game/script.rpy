@@ -11,13 +11,13 @@ default docName = "???"
 define i = Character("[iName]", color = "#ff8800")
 default iName = "???"
 define d = Character("[dName]", color = "#000000")
-define dName = "Damian Double"
+define dName = "???"
 define si = Character("[sName]", color = '#979797')
-define sName = "Sierra String"
+define sName = "???"
 define sa = Character("[saName]", color = '#9000ff')
-define saName = "SDK Sahi"
+define saName = "???"
 define r = Character("[rName]", color = "#3bf441")
-define rName = "Raphael Recursion"
+define rName = "???"
 define ic = Character ("[icName]", color = '#fecb3f')
 default icName = "???"
 
@@ -53,9 +53,8 @@ image isaac_happy:
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
 
-#image darken = im.MatrixColor("darken.png",im.matrix.tint(0.5,0.5,0.6)* im.matrix.brightness(-0.2))
 image darken:
-    "darken.png"
+    "gui/overlay/confirm.png"
     xalign 0.5
     yalign 0.5
     zoom 3
@@ -201,12 +200,13 @@ label playAlong:
 
     #custom screen we made to announce the character menu
     show darken with dissolve
-    show screen announce("You've unlocked the Character Menu!","Right click to see everyone you've met!") 
+    show screen announce("You've unlocked the Character Menu!","Click on the button at the top right to see everyone you've met!") 
     centered ""
     hide darken
     hide screen announce
 
     show screen charMenuButton
+    # $ renpy.pause(hard = True)
 
     i "Oh, and this is my brother Damian!"
     $ dName = "Damian"

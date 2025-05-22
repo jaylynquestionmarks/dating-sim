@@ -1,115 +1,602 @@
-2025-05-21 06:40:50 UTC
-Windows-10-10.0.26100
+2025-05-21 21:15:07 UTC
+macOS-15.2-arm64-arm-64bit
 Ren'Py 8.3.7.25031702
 
-Early init took 0.14s
-Loading error handling took 0.07s
-Loading script took 0.62s
-Loading save slot metadata took 0.33s
+Early init took 0.04s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.20s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.35s
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\IDK\\AppData\\Roaming/RenPy/backups\\dating-sim':
-Dump and make backups took 0.17s
+Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.13s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.02s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.82s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 212, in script
+    i "Oh, and this is my brother Damian!"
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 1117, in do_display
+    display_say(who,
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 814, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Applications/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 3289, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/screen.py", line 794, in event
+    rv = self.child.event(ev, x, y, st)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 285, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 1182, in event
+    return handle_click(self.clicked)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 1103, in handle_click
+    rv = run(action)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 394, in run
+    new_rv = run(i, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 401, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 619, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+TypeError: 'NoneType' object is not callable
+
+While loading <renpy.display.im.Image object ('isaac_happy.png') at 0x106ede730>:
+  File "game/script.rpy", line 212, in script
+    i "Oh, and this is my brother Damian!"
+  File "renpy/common/00action_other.rpy", line 619, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+TypeError: 'NoneType' object is not callable
+Resetting cache.
+Early init took 65.33s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 114.10s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 117: Line is indented, but the preceding modal statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    key "mouseup_1" action NullAction()
+    ^
+DPI scale factor: 1.000000
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 130.83s
+Loading error handling took 0.01s
+Loading script took 0.14s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 178.27s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 290.56s
+Loading error handling took 0.01s
+Loading script took 0.12s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 217, in script
+    p "Nice to meet you, Mr. Double."
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 1471, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 1117, in do_display
+    display_say(who,
+  File "/Applications/renpy-8.3.7-sdk/renpy/character.py", line 814, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Applications/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 3289, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/screen.py", line 794, in event
+    rv = self.child.event(ev, x, y, st)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 1297, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/layout.py", line 285, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 1182, in event
+    return handle_click(self.clicked)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 1103, in handle_click
+    rv = run(action)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 394, in run
+    new_rv = run(i, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/behavior.py", line 401, in run
+    return action(*args, **kwargs)
+TypeError: Fade() missing 2 required positional arguments: 'hold_time' and 'in_time'
+
+While loading <renpy.display.im.Image object ('isaac_happy.png') at 0x106a5be50>:
+  File "game/script.rpy", line 217, in script
+    p "Nice to meet you, Mr. Double."
+TypeError: Fade() missing 2 required positional arguments: 'hold_time' and 'in_time'
+Resetting cache.
+Early init took 32182.96s
+Loading error handling took 0.02s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.01s
-Analyze screens took 0.17s
-Save screen analysis took 0.24s
-Prepare screens took 0.57s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.23s
+Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 1.50s
+Interface start took 0.15s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1512, 982)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics 620'
-Version: b'4.6.0 - Build 31.0.101.2130'
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32231.45s
+Loading error handling took 0.01s
+Loading script took 0.14s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
 
-Full traceback:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ast.py", line 623, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1471, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 1117, in do_display
-    display_say(who,
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\character.py", line 814, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 2 more times]
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2177, in _scope
-    return self.set_text(self.text_parameter, scope, self.substitute, update)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\text\text.py", line 2216, in set_text
-    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 373, in substitute
-    s = interpolate(s, variables) # type: ignore
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 86, in interpolate
-    raise e
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\substitutions.py", line 78, in interpolate
-    value = renpy.python.py_eval(code, {}, scope)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\IDK\Desktop\Everything\Apps and Things\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "<none>", line 1, in <module>
-NameError: name 'dname' is not defined
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32254.85s
+Loading error handling took 0.01s
+Loading script took 0.05s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.13s
 
-While loading <renpy.display.im.Image object ('isaac_happy.png') at 0x0000000006adb520>:
-  File "game/script.rpy", line 211, in script
-    i "Oh, and this is my brother Damian!"
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 115, in execute
-    screen charMenu():
-  File "game/screens.rpy", line 119, in execute
-    grid 4 2:
-NameError: name 'dname' is not defined
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32700.83s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32707.10s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32764.61s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nittykotla/Library/RenPy/backups/dating-sim':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32781.46s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1512, 982)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M4'
+Version: b'2.1 Metal - 89.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1173, 660) drawable=(2346, 1320)
+Maximum texture size: 4096x4096

@@ -103,6 +103,7 @@ screen announce(announcement, subtext):
                 text subtext size 27 align (0.5, 0.0)
 
 screen charMenuButton():
+    zorder 30
     vbox:
         xpos 75
         ypos 25
@@ -111,15 +112,15 @@ screen charMenuButton():
             action [ToggleScreen("charMenu", fade)]
 
 
-
 screen charMenu():
+    zorder 10
     frame:
         background Frame("gui/overlay/confirm.png")
         
     grid 4 2:  
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [ToggleScreen("docDesc"), Fade(0.5, 0, 0.5)]
             xpos 150 ypos 200
 
             idle_background "gui/assets/profile_idle.png"
@@ -149,7 +150,7 @@ screen charMenu():
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[dname]":
+            text "[dName]":
                 xpos 70
                 ypos 100
                 size 30
@@ -203,11 +204,12 @@ screen charMenu():
                 ypos 100
                 size 30
         button:
+            #how to use sensitivity here? like to control sensitivity?
             style "profile_button"
             action [Show("docDesc"), Fade(0.5)]
             xpos 450 ypos 400
 
-            idle_background "gui/asests/profile_idle.png"
+            idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
             text "???":
