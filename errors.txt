@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/screens.rpy", line 117: Line is indented, but the preceding modal statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
     key "mouseup_1" action NullAction()
     ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
 Wed May 21 14:17:01 2025
+=======
+File "game/script.rpy", line 60: expected 'simple_expression' not found.
+    ypos 
+         ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Wed May 21 23:54:20 2025
+>>>>>>> 533f7de713009f234f3b5a1ac074bcbd45f50f14

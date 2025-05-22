@@ -54,34 +54,48 @@ image bg_infirmary:
 image bg_main_room:
     "bg_main_room.jpg"
     zoom 1.30
-image isaac_normal:
-    "isaac_normal.png"
-image isaac_happy:
-    "isaac_happy.png"
-image isaac_speaking:
-    "isaac_speaking.png"
+image issac_normal:
+    "issac_normal.png"
+    zoom 0.4
+image issac_happy:
+    "issac_happy.png"
+    zoom 0.4
+image issac_speaking:
+    "issac_speaking.png"
+    zoom 0.4
 image damian_normal:
     "damian_normal.png"
+    zoom 0.4
 image damian_happy:
     "damian_happy.png"
+    zoom 0.4
 image damian_speaking:
     "damian_speaking.png"
+    zoom 0.4
 image sierra_normal:
     "sierra_normal.png"
+    zoom 0.4
 image sierra_happy:
     "sierra_happy.png"
+    zoom 0.4
 image sierra_speaking:
     "sierra_speaking.png"
+    zoom 0.4
 image sahi_normal:
     "sahi_normal.png"
+    zoom 0.4
 image sahi_happy:
     "sahi_happy.png"
+    zoom 0.4
 image sahi_speaking:
     "sahi_speaking.png"
+    zoom 0.4
 image icarus_normal:
     "icarus_normal.png"
+    zoom 0.4
 image icarus_speaking:
     "icarus_speaking.png"
+    zoom 0.4
 
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
@@ -106,7 +120,6 @@ label splashscreen:
 
 label start:
 
-    show screen likability_bar(docLikability)
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     p "ugh... I'm okay I guess. Who are you?"
@@ -136,7 +149,7 @@ label start:
 
     scene bg_infirmary
     show mc at left 
-    show doctor at right 
+    show doc at right 
 
     p  "What...? Polymorphism?"
     doc "My last name, huh? My family is pretty well known for our diverse careers."
@@ -244,12 +257,12 @@ label playAlong:
     show doctor at right
     
     doc "This is the common area, where we gather for our main missions from Agent Patil, our supervisor."
-    show isaac_happy at center
+    show issac_happy at center
     i "HEY PETEY!!!! {i} *GASPPPP!!*{/i}"
     i "oh"
     i "my"
     i "GODDDD!!! Petey, is this our new agent???"
-    show isaac_speaking
+    show issac_speaking
     doc "{i} *sigh* {/i}"
     doc "Hello, Isaac. Yes, this is our new agent, [playerName]. [playerName], this is our resident cleanup agent, Isaac Integer."
     $ iName = "Isaac Integer"
