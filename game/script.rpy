@@ -54,8 +54,34 @@ image bg_infirmary:
 image bg_main_room:
     "bg_main_room.jpg"
     zoom 1.30
+image isaac_normal:
+    "isaac_normal.png"
 image isaac_happy:
     "isaac_happy.png"
+image isaac_speaking:
+    "isaac_speaking.png"
+image damian_normal:
+    "damian_normal.png"
+image damian_happy:
+    "damian_happy.png"
+image damian_speaking:
+    "damian_speaking.png"
+image sierra_normal:
+    "sierra_normal.png"
+image sierra_happy:
+    "sierra_happy.png"
+image sierra_speaking:
+    "sierra_speaking.png"
+image sahi_normal:
+    "sahi_normal.png"
+image sahi_happy:
+    "sahi_happy.png"
+image sahi_speaking:
+    "sahi_speaking.png"
+image icarus_normal:
+    "icarus_normal.png"
+image icarus_speaking:
+    "icarus_speaking.png"
 
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
