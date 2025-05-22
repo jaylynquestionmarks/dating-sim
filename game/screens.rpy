@@ -132,7 +132,7 @@ screen charMenu():
                 size 30
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("iDesc"), Fade(0.5)]
             xpos 250 ypos 200
 
             idle_background "gui/assets/profile_idle.png"
@@ -169,7 +169,7 @@ screen charMenu():
 
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("sahiDesc"), Fade(0.5)]
             xpos 150 ypos 400
 
             idle_background "gui/assets/profile_idle.png"
@@ -181,7 +181,7 @@ screen charMenu():
                 size 30
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("raphDesc"), Fade(0.5)]
             xpos 250 ypos 400
 
             idle_background "gui/assets/profile_idle.png"
@@ -193,7 +193,7 @@ screen charMenu():
                 size 30
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("icarDesc"), Fade(0.5)]
             xpos 350 ypos 400
 
             idle_background "gui/assets/profile_idle.png"

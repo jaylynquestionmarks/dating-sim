@@ -8,18 +8,25 @@ define p = Character("[playerName]", color = "#ffffff", window_background=Frame(
 default playerName = "You"
 define doc = Character("[docName]", color = "#001368")
 default docName = "???"
+default docLikability = 35
 define i = Character("[iName]", color = "#ff8800")
 default iName = "???"
+default iLikability = 40
 define d = Character("[dName]", color = "#000000")
-define dName = "???"
+define dName = "Damian Double"
+default dLikability = 25
 define si = Character("[sName]", color = '#979797')
-define sName = "???"
+define sName = "Sierra String"
+default sLikability = 35
 define sa = Character("[saName]", color = '#9000ff')
-define saName = "???"
+define saName = "SDK Sahi"
+default saLikability = 35
 define r = Character("[rName]", color = "#3bf441")
-define rName = "???"
+define rName = "Raphael Recursion"
+default rLikability = 35
 define ic = Character ("[icName]", color = '#fecb3f')
 default icName = "???"
+default icLikability = 35
 
 #hello!
 
@@ -47,8 +54,34 @@ image bg_infirmary:
 image bg_main_room:
     "bg_main_room.jpg"
     zoom 1.30
+image isaac_normal:
+    "isaac_normal.png"
 image isaac_happy:
     "isaac_happy.png"
+image isaac_speaking:
+    "isaac_speaking.png"
+image damian_normal:
+    "damian_normal.png"
+image damian_happy:
+    "damian_happy.png"
+image damian_speaking:
+    "damian_speaking.png"
+image sierra_normal:
+    "sierra_normal.png"
+image sierra_happy:
+    "sierra_happy.png"
+image sierra_speaking:
+    "sierra_speaking.png"
+image sahi_normal:
+    "sahi_normal.png"
+image sahi_happy:
+    "sahi_happy.png"
+image sahi_speaking:
+    "sahi_speaking.png"
+image icarus_normal:
+    "icarus_normal.png"
+image icarus_speaking:
+    "icarus_speaking.png"
 
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
@@ -73,6 +106,7 @@ label splashscreen:
 
 label start:
 
+    show screen likability_bar(docLikability)
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     p "ugh... I'm okay I guess. Who are you?"
@@ -110,7 +144,7 @@ label start:
     p  "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     p  "No, hold on. Where am I? What is this place?"
-    doc "You're at __ Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, Miss..."
 
     $ playerName = renpy.input("What is your name?")
 
@@ -171,6 +205,39 @@ label playAlong:
     #doc likability points ^ by 3.
     p "{i} wait what? likability points? what are these?? {/i}"
     doc "Alright! Let's go into our main room then."
+    "Dr. Polymorphism glances down at his tablet and looks confused."
+    p "..Is everything alright?"
+    doc "So."
+    doc "This is a bit awkward, but I was on break playing a game before you were brought in."
+    doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
+    menu:
+        "<Look at Dr. Polymorphism's tablet>":
+            "It's a tic tac toe board....."
+            p "Were you playing tic tac toe with yourself...?"
+            doc "lol jealous?"
+            p "..."
+            p "so what's the issue."
+            doc "well, the board started glitching when you came in :/"
+            doc "Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out."
+            menu:
+                "<Investigate>":
+                    show screen ticTacToeGame(False)
+                    call fixBug(doc, 3, "64", "$ turn = \"x\"")
+                    hide screen ticTacToeGame
+                    hide screen o0
+                    hide screen o1
+                    hide screen o2
+                    hide screen o3
+                    hide screen o4
+                    hide screen o5
+                    hide screen o6
+                    hide screen o7
+                    hide screen o8
+    call screen ticTacToeGame(True)
+    doc "Whoa, you actually fixed it?"
+    p "umm, rude"
+    doc "Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!"
+    doc "You'll see once you meet the team-- let's go!"
 
     scene bg_main_room with dissolve
     show mc at left
