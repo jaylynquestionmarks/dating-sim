@@ -149,7 +149,7 @@ label start:
 
     scene bg_infirmary
     show mc at left 
-    show doc at right 
+    show doctor at right 
 
     p  "What...? Polymorphism?"
     doc "My last name, huh? My family is pretty well known for our diverse careers."
