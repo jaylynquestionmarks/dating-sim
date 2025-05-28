@@ -84,7 +84,6 @@ style frame:
 
 ## custom screens
 screen announce(announcement, subtext):
-
     frame:
     # changed window^^ to frame, then added these for the image. this is to customize the input box
         background Frame("gui/assets/announce.png")
@@ -103,24 +102,24 @@ screen announce(announcement, subtext):
                 text subtext size 27 align (0.5, 0.0)
 
 screen charMenuButton():
-    zorder 30
+    zorder 11
     vbox:
         xpos 75
         ypos 25
         imagebutton:
             auto "gui/assets/charMenu_%s.png"
-            action [ToggleScreen("charMenu", fade)]
-
+            action [ToggleScreen("charMenu", Fade(0.5, 0, 0.5))]
 
 screen charMenu():
     zorder 10
+    modal True
     frame:
         background Frame("gui/overlay/confirm.png")
         
     grid 4 2:  
         button:
             style "profile_button"
-            action [ToggleScreen("docDesc"), Fade(0.5, 0, 0.5)]
+            action [ToggleScreen("docDesc"), fade]
             xpos 150 ypos 200
 
             idle_background "gui/assets/profile_idle.png"
@@ -132,19 +131,19 @@ screen charMenu():
                 size 30
         button:
             style "profile_button"
-            action [Show("iDesc"), Fade(0.5)]
+            action [Show("isaacDesc"), fade]
             xpos 250 ypos 200
 
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[iName]":
+            text "Isaac Integer":
                 xpos 70
                 ypos 100
                 size 30
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("damianDesc"), fade]
             xpos 350 ypos 200
 
             idle_background "gui/assets/profile_idle.png"
@@ -156,66 +155,66 @@ screen charMenu():
                 size 30
         button:
             style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
+            action [Show("sierraDesc"), fade]
             xpos 450 ypos 200
-
+            sensitive siMet
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[sName]":
-                xpos 70
-                ypos 100
-                size 30
+            if siMet == False:
+                text ""
+            else: 
+                text "Sierra String":
+                    xpos 70
+                    ypos 100
+                    size 30
 
         button:
             style "profile_button"
-            action [Show("sahiDesc"), Fade(0.5)]
+            action [Show("sahiDesc"), fade]
             xpos 150 ypos 400
-
+            sensitive saMet
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[saName]":
-                xpos 70
-                ypos 100
-                size 30
+            if saMet == False:
+                text ""
+            else: 
+                text "SDK Sahi":
+                    xpos 70
+                    ypos 100
+                    size 30
         button:
             style "profile_button"
-            action [Show("raphDesc"), Fade(0.5)]
             xpos 250 ypos 400
-
+            action [Show("raphDesc"), fade]
+            sensitive raMet
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[rName]":
-                xpos 70
-                ypos 100
-                size 30
+            if raMet == False:
+                text ""
+            else: 
+                text "Raphael Recursion":
+                    xpos 70
+                    ypos 100
+                    size 30            
         button:
             style "profile_button"
-            action [Show("icarDesc"), Fade(0.5)]
             xpos 350 ypos 400
-
+            action [Show("icarDesc"), fade]
+            sensitive icMet
             idle_background "gui/assets/profile_idle.png"
             hover_background "gui/assets/profile_hover.png"
 
-            text "[icName]":
-                xpos 70
-                ypos 100
-                size 30
-        button:
-            #how to use sensitivity here? like to control sensitivity?
-            style "profile_button"
-            action [Show("docDesc"), Fade(0.5)]
-            xpos 450 ypos 400
+            if icMet == False:
+                text ""
+            else: 
+                text "Icarus Inheritance":
+                    xpos 70
+                    ypos 100
+                    size 30
 
-            idle_background "gui/assets/profile_idle.png"
-            hover_background "gui/assets/profile_hover.png"
-
-            text "???":
-                xpos 70
-                ypos 100
-                size 30
 
 style profile_button is default
 style profile_button:
@@ -224,11 +223,6 @@ style profile_button:
     padding (0, 10)  
     xsize 300 
     ysize 200
-
-screen docDesc:
-    text "hello"
-            
-    
 
 ## Say screen ##################################################################
 ##
@@ -320,6 +314,7 @@ style say_dialogue:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#input
 
+default input_yalign = 0.5
 screen input(prompt):
     style_prefix "input"
 
@@ -327,7 +322,7 @@ screen input(prompt):
     # changed window^^ to frame, then added these for the image. this is to customize the input box
         background Frame("gui/assets/input_box.png", Borders(0, 0, 0, 0))
         xalign 0.5
-        yalign 0.5
+        yalign input_yalign
         xsize 600
         ysize 400
         

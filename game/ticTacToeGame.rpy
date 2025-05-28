@@ -4,6 +4,7 @@ transform shrink:
     zoom 0.3
 
 screen ticTacToeGame(fixed):
+    image "gui/overlay/confirm.png"
 
     #board
     default i0 = ""
@@ -16,14 +17,16 @@ screen ticTacToeGame(fixed):
     default i7 = ""
     default i8 = ""
 
+    default pos = 200
+
     default turn = "o"
     default win = False
 
     if fixed != True:
-        add "ttt_code_sc.png" zoom 0.65 xpos 1030 ypos 150
+        add "ttt_code_sc.png" zoom 0.65 xpos 900 ypos 150
 
     imagemap:
-        xpos 400
+        xpos 200
         ypos 100
         ground "board.png"
         at shrink
@@ -70,7 +73,7 @@ screen ticTacToeGame(fixed):
                     $ turn = "x"
     
         textbutton "{size=*2}Clear Board{/size}":
-            xpos 50
+            xpos 100
             ypos 100
             action Hide("x0"), Hide("x1"), Hide("x2"), Hide("x3"), Hide("x4"), Hide("x5"), Hide("x6"), Hide("x7"), Hide("x8"), Hide("o0"), Hide("o1"), Hide("o2"), Hide("o3"), Hide("o4"), Hide("o5"), Hide("o6"), Hide("o7"), Hide("o8"), SetScreenVariable("i0", ""), SetScreenVariable("i1", ""), SetScreenVariable("i2", ""), SetScreenVariable("i3", ""), SetScreenVariable("i4", ""), SetScreenVariable("i5", ""), SetScreenVariable("i6", ""), SetScreenVariable("i7", ""), SetScreenVariable("i8", ""), SetScreenVariable("win", False)
 
@@ -82,56 +85,56 @@ screen ticTacToeGame(fixed):
 
 
 screen x0():
-    add "x0.png" at shrink xpos 400 ypos 100
+    add "x0.png" at shrink xpos 200 ypos 100
 
 screen x1():
-    add "x1.png" at shrink xpos 400 ypos 100
+    add "x1.png" at shrink xpos 200 ypos 100
 
 screen x2():
-    add "x2.png" at shrink xpos 400 ypos 100
+    add "x2.png" at shrink xpos 200 ypos 100
 
 screen x3():
-    add "x3.png" at shrink xpos 400 ypos 100
+    add "x3.png" at shrink xpos 200 ypos 100
 
 screen x4():
-    add "x4.png" at shrink xpos 400 ypos 100
+    add "x4.png" at shrink xpos 200 ypos 100
 
 screen x5():
-    add "x5.png" at shrink xpos 400 ypos 100
+    add "x5.png" at shrink xpos 200 ypos 100
 
 screen x6():
-    add "x6.png" at shrink xpos 400 ypos 100
+    add "x6.png" at shrink xpos 200 ypos 100
 
 screen x7():
-    add "x7.png" at shrink xpos 400 ypos 100
+    add "x7.png" at shrink xpos 200 ypos 100
 
 screen x8():
-    add "x8.png" at shrink xpos 400 ypos 100
+    add "x8.png" at shrink xpos 200 ypos 100
 
 
 screen o0():
-    add "o0.png" at shrink xpos 400 ypos 100
+    add "o0.png" at shrink xpos 200 ypos 100
 
 screen o1():
-    add "o1.png" at shrink xpos 400 ypos 100
+    add "o1.png" at shrink xpos 200 ypos 100
 
 screen o2():
-    add "o2.png" at shrink xpos 400 ypos 100
+    add "o2.png" at shrink xpos 200 ypos 100
 
 screen o3():
-    add "o3.png" at shrink xpos 400 ypos 100
+    add "o3.png" at shrink xpos 200 ypos 100
 
 screen o4():
-    add "o4.png" at shrink xpos 400 ypos 100
+    add "o4.png" at shrink xpos 200 ypos 100
 
 screen o5():
-    add "o5.png" at shrink xpos 400 ypos 100
+    add "o5.png" at shrink xpos 200 ypos 100
 
 screen o6():
-    add "o6.png" at shrink xpos 400 ypos 100
+    add "o6.png" at shrink xpos 200 ypos 100
 
 screen o7():
-    add "o7.png" at shrink xpos 400 ypos 100
+    add "o7.png" at shrink xpos 200 ypos 100
 
 screen o8():
-    add "o8.png" at shrink xpos 400 ypos 100
+    add "o8.png" at shrink xpos 200 ypos 100

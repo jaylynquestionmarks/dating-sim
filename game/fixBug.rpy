@@ -5,6 +5,7 @@ label fixBug(loveInterest, amount, lineAns, codeAns):
     #probably put all the bgs and left/right chars and line numbers and answers in lists lol
     
     while fixed != True:
+        $ input_yalign = 1.0
         $ line = renpy.input("What line # is the bug in?")
         # affection w/ character increases if right
         

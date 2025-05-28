@@ -1,28 +1,54 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 192, in script call
-    call fixBug(doc, 3, "64", "$ turn = \"x\"")
-  File "game/fixBug.rpy", line 22, in script
-    player "Hold on-- that's not it."
-Exception: Sayer 'player' is not defined.
+  File "game/script.rpy", line 113, in script
+    call screen announce("Ending 01: Coward >:(")
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+TypeError: missing a required argument: 'subtext'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 192, in script call
-    call fixBug(doc, 3, "64", "$ turn = \"x\"")
-  File "game/fixBug.rpy", line 22, in script
-    player "Hold on-- that's not it."
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\jayly\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'player' is not defined.
+  File "game/script.rpy", line 113, in script
+    call screen announce("Ending 01: Coward >:(")
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 1987, in execute
+    self.call("execute")
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/exports/statementexports.py", line 345, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "/Applications/renpy-8.3.7-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/screen.py", line 480, in visit_all
+    callback(self)
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/core.py", line 2748, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/screen.py", line 491, in per_interact
+    self.update()
+  File "/Applications/renpy-8.3.7-sdk/renpy/display/screen.py", line 700, in update
+    self.screen.function(**self.scope)
+  File "/Applications/renpy-8.3.7-sdk/renpy/parameter.py", line 455, in apply_arguments
+    return parameters.apply(args or (), kwargs or {}, ignore_errors)
+  File "/Applications/renpy-8.3.7-sdk/renpy/parameter.py", line 307, in apply
+    raise TypeError(msg) # from None
+TypeError: missing a required argument: 'subtext'
 
-Windows-10-10.0.26100 AMD64
+macOS-15.2-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 datingsim 1.0
-Wed May 21 21:31:09 2025
+Tue May 27 21:26:16 2025

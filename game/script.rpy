@@ -1,105 +1,7 @@
-# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define preShiftp = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/textbox1.png", 1, 1), namebox_xpos=220)
-define p = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/assets/ourTextbox.png", ypos = -20), namebox_xpos=220)
-default playerName = "You"
-define doc = Character("[docName]", color = "#001368")
-default docName = "???"
-default docLikability = 35
-define i = Character("[iName]", color = "#ff8800")
-default iName = "???"
-default iLikability = 40
-define d = Character("[dName]", color = "#000000")
-define dName = "Damian Double"
-default dLikability = 25
-define si = Character("[sName]", color = '#979797')
-define sName = "Sierra String"
-default sLikability = 35
-define sa = Character("[saName]", color = '#9000ff')
-define saName = "SDK Sahi"
-default saLikability = 35
-define r = Character("[rName]", color = "#3bf441")
-define rName = "Raphael Recursion"
-default rLikability = 35
-define ic = Character ("[icName]", color = '#fecb3f')
-default icName = "???"
-default icLikability = 35
-
-#hello!
-
-default equip = True
-
-image doctor:
-    "doctor.png"
-    zoom 1.75   
-image mc:
-    "mc.png"
-image golf_kart_kun:
-    "golf_kart_kun.png"
-    zoom 1.75
-image bg_school:
-    "bg_school.jpg"
-    zoom 0.49
-image bg_hallway:
-    "bg_hallway.jpg"
-    zoom 0.53
-image bg_infirmary:
-    "bg_infirmary.jpeg"
-    zoom 3.00
-    xalign 0.5
-    yalign 0.5
-image bg_main_room:
-    "bg_main_room.jpg"
-    zoom 1.30
-image issac_normal:
-    "issac_normal.png"
-    zoom 0.4
-image issac_happy:
-    "issac_happy.png"
-    zoom 0.4
-image issac_speaking:
-    "issac_speaking.png"
-    zoom 0.4
-image damian_normal:
-    "damian_normal.png"
-    zoom 0.4
-image damian_happy:
-    "damian_happy.png"
-    zoom 0.4
-image damian_speaking:
-    "damian_speaking.png"
-    zoom 0.4
-image sierra_normal:
-    "sierra_normal.png"
-    zoom 0.4
-image sierra_happy:
-    "sierra_happy.png"
-    zoom 0.4
-image sierra_speaking:
-    "sierra_speaking.png"
-    zoom 0.4
-image sahi_normal:
-    "sahi_normal.png"
-    zoom 0.4
-image sahi_happy:
-    "sahi_happy.png"
-    zoom 0.4
-image sahi_speaking:
-    "sahi_speaking.png"
-    zoom 0.4
-image icarus_normal:
-    "icarus_normal.png"
-    zoom 0.4
-image icarus_speaking:
-    "icarus_speaking.png"
-    zoom 0.4
-
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
 
+define title = ""
 image darken:
     "gui/overlay/confirm.png"
     xalign 0.5
@@ -119,7 +21,7 @@ label splashscreen:
     return
 
 label start:
-
+    call screen select()
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
     p "ugh... I'm okay I guess. Who are you?"
@@ -130,10 +32,10 @@ label start:
 
     centered "3 hours ago..." with hpunch
 
-    scene bg_school with dissolve
+    scene bg school with dissolve
     centered "{color=#0000ffff}05/20/25 \n1:25 pm{/color}"
 
-    scene bg_hallway with dissolve
+    scene bg hallway with dissolve
     show mc at left 
 
     preShiftp  "Oh no! I only have a minute to get to class! I gotta present my final project in Mrs. Patil's class today!!!"
@@ -147,8 +49,8 @@ label start:
     scene black
     centered "Present" with hpunch
 
-    scene bg_infirmary
-    show mc at left 
+    scene bg infirmary
+    show mc at one 
     show doctor at right 
 
     p  "What...? Polymorphism?"
@@ -157,11 +59,12 @@ label start:
     p  "... Did I get freaking isekai'd???"
     doc "Sorry, what?"
     p  "No, hold on. Where am I? What is this place?"
-    doc "You're at Code Care Center here at the AP CSA, Miss..."
+    doc "You're at Code Care Center here at the AP CSA, [title]..."
 
+    $ input_align = 0.5
     $ playerName = renpy.input("What is your name?")
 
-    doc "Well Miss [playerName], you were admitted for a near fatal code crash, but we managed to bring you back."
+    doc "Well [title][playerName], you were admitted for a near fatal code crash, but we managed to bring you back."
     p "... code crash?"
     doc "Miss [playerName]? Are you alright?"  
     p "Yeah, sorry. I blanked out for a second."
@@ -177,12 +80,11 @@ label start:
     p "..."
     doc "If you're feeling up for it, we can go on a tour of our facility right now!"
     menu:
-        "<fess up and reveal you think you've been isekai'd>":
+        "fess up and reveal you think you've been isekai'd":
             jump cowardEnding
 
-        "<play along! this is way more exciting than my old life!>":
+        "play along! this is way more exciting than my old life!":
             jump playAlong
-
 
 label cowardEnding:
 
@@ -200,15 +102,20 @@ label cowardEnding:
     doc "It's a shame we have to part so early. But thank you for being clear with me. Goodbye!!"
     # zap to real world
 
-    scene bg_school
+    scene bg school
     show mc at left
 
-    p "I'm back!! Oh no, how much time do I have to get back to class? ONE MINUTE??? I better run!"
-    p "..."
-    p "Maybe I'll wait for that golf cart to pass, though."
+    preShiftp "I'm back!! Oh no, how much time do I have to get back to class? ONE MINUTE??? I better run!"
+    preShiftp "..."
+    preShiftp "Maybe I'll wait for that golf cart to pass, though."
 
     scene black
-    "Ending 01: Coward >:("
+    show darken with dissolve
+    show screen announce("Ending 01: Coward >:(","")
+    centered ""
+    hide darken
+    hide screen announce
+    
     $ MainMenu(confirm = False)()# The script of the game goes in this file.
 return 
 
@@ -224,16 +131,15 @@ label playAlong:
     doc "This is a bit awkward, but I was on break playing a game before you were brought in."
     doc "I was trying to pull up a map of the place, but my tablet won't let me exit the game app.."
     menu:
-        "<Look at Dr. Polymorphism's tablet>":
+        "Look at Dr. Polymorphism's tablet":
             "It's a tic tac toe board....."
             p "Were you playing tic tac toe with yourself...?"
-            doc "lol jealous?"
-            p "..."
-            p "so what's the issue."
-            doc "well, the board started glitching when you came in :/"
+            doc "..."
+            doc "Anyways..."
+            doc "Well, the board started glitching when you came in..."
             doc "Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out."
             menu:
-                "<Investigate>":
+                "Investigate!":
                     show screen ticTacToeGame(False)
                     call fixBug(doc, 3, "64", "$ turn = \"x\"")
                     hide screen ticTacToeGame
@@ -248,31 +154,28 @@ label playAlong:
                     hide screen o8
     call screen ticTacToeGame(True)
     doc "Whoa, you actually fixed it?"
-    p "umm, rude"
+    p "Yeah...It was kinda easy to be honest.."
     doc "Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!"
-    doc "You'll see once you meet the team-- let's go!"
+    doc "You'll see once you meet the team - let's go!"
 
-    scene bg_main_room with dissolve
+    scene bg main room with dissolve
     show mc at left
     show doctor at right
     
     doc "This is the common area, where we gather for our main missions from Agent Patil, our supervisor."
-    show issac_happy at center
+    show isaac happy at center
     i "HEY PETEY!!!! {i} *GASPPPP!!*{/i}"
     i "oh"
     i "my"
     i "GODDDD!!! Petey, is this our new agent???"
     doc "{i} *sigh* {/i}"
-    doc "Hello, Isaac. Yes, this is our new agent, [playerName]. [playerName], this is our resident cleanup agent, Isaac Integer."
+    doc "Hello, Isaac. Yes, this is our new agent,[title][playerName]. [title][playerName], this is our resident cleanup agent, Isaac Integer."
     $ iName = "Isaac Integer"
-    hide doctor
-    hide issac_happy
-    show issac_happy at right
     p "Hello!" 
     p "{i}...integer? is everyone here named this way?{/i}"
-    hide issac_happy
-    show issac_speaking at right
-    i "HIII!!! It's so nice to meet you, [playerName]! Oh wow, you have such a nice name!"
+    
+    show isaac speaking
+    i "HIII!!! It's so nice to meet you, [title][playerName]! Oh wow, you have such a nice name!"
     $ iName = "Isaac"
     
     p "Thanks! You have such a pretty face!"
@@ -292,171 +195,253 @@ label playAlong:
     show screen charMenuButton
     # $ renpy.pause(hard = True)
 
-    show damian_normal at center
+    show damian normal at three 
     i "Oh, and this is my brother Damian!"
     $ dName = "Damian"
-    hide issac_speaking
-    show issac_normal at right
-    hide damian_normal
-    show damian_speaking 
+    
+    show isaac normal
+    show damian speaking 
+    
     d "You can call me Mr. Double. I am the action strategist here at the A.P.C.S.A."
     $ dName = "Mr. Double"
-    hide damian_speaking
-    show damian_normal
+    
+    show damian normal
+    
     p "{i}eek he's so menacing… i really don't want to die again today{/i}"
     p "Nice to meet you, Mr. Double."
-    hide issac_normal
-    show issac_speaking at right
+    
+    show isaac speaking
+    
     i "Are you guys going on a tour? Can I come??"
-    hide issac_speaking
-    show issac_normal
-    hide damian_normal
+    
+    show isaac happy
     show doctor at right
+    
     doc "{i} sigh {/i}"
     doc "I mean, if you want to. Let's keep moving then."
-    hide issac_normal
-    show issac_happy
-    doc "[playerName] did you want to see our equipment room first or see our main reporting office?"
+    
+    show isaac happy
+    
+    doc "[title][playerName], do you want to see our equipment room first or see our main reporting office?"
     menu:
         "\"The equipment room sounds pretty cool!\"":
             p "The equipment room sounds pretty cool!"
             d "Well, then. I need to head over to the office. See you later."
             i "Alright, let's go!!!"
-            #hide d
+            $ equip = True
             jump meetEquipment
 
         "\"Um, the office?\"":
             p "Um, the office?"
-            hide issac_happy
-            show damian_speaking
+            
+            show damian speaking
+            
             d "I'll suppose I'll join you as well."
             #likability up by 2 
+
+            show damian normal
+            
             p "{i}what's with this guy?{/i}"
-            p "{i}is there someone he wants to murder there? or-{/i}"
-            hide damian_speaking
-            show issac_speaking
+            p "{i}is there someone he wants to murder there?{/i}"
+            
+            show isaac speaking
             i "Awesome, let's go!!!"
-            hide issac_speaking
-            $ equip = False
+            $ office = True
             jump meetOffice
 
 label meetOffice:
-    #scene bg office
+    scene bg office with dissolve
+    show doctor at right 
+    show mc at one 
+    show damian normal at two 
+    show isaac normal at three
+
     doc "Here we are, in the main reporting office." 
     doc "..."
     doc "Well it looks empty right now, but there are usually more people here."
-    show sierra_normal
+    
+    show sierra normal at five
+    
     doc "Oh, this is Sierra String. She's our journalist. Sierra, this is [playerName]. She's our new guest agent."
-    hide sierra_normal
-    show sierra_speaking
+    
+    show sierra speaking
+    
     si  "Hello."
-    hide sierra_speaking
-    show sierra_normal
+    
+    show sierra normal
+    
     p "{i}what… another murderous looking person already? why?{/i}"
     p "i'd better address her with a formality like the other guy."
     p "Nice to meet you, Ms. String."
-    hide sierra_normal
-    show sierra_happy
+    $ siMet = True
+
+    show sierra happy
+    
     si "[playerName], huh? Sierra is fine."
-    $ sName = "Sierra"
-    hide sierra_happy
-    hide doctor
-    show issac_speaking at right
-    show sierra_normal
+    $ siName = "Sierra"
+    
+    show isaac speaking
+    show sierra normal
+    
     i "Ice cold as always, isn't she. She scared me too the first time I saw her. Don't worry, you'll get used to it."
     menu:
         "No, no, not at all.":
             p "No, no, not at all. {i}sweat{/i}"
             #s points up by 5.
-            hide sierra_normal
-            show sierra_happy
-            hide issac_speaking
-            show issac_normal at right
+
+            show sierra happy 
+            show isaac normal
+            
             si "I have a feeling we are going to get along very well, [playerName]"
-            hide sierra_happy
+            
         "Don't worry, I like them cold.":
-            hide issac_speaking
-            show issac_normal at right
+        
+            show isaac normal
             p "Don't worry, I like them cold."
             #damian's likability increase by 2
-            p "{i}this place is full of freaks… good thing im freakyyy{/i}"
-            hide sierra_normal
+
     
-    hide issac_normal
     show doctor at right
-    show sahi_normal    
+    show sahi normal  
 
     doc "Oh, this is SDK Sahi, our on-base support. Sahi, this is [playerName]."
 
-    hide sahi_normal
-    show sahi_speaking
+    show sahi speaking
     sa "Hello! Nice to meet you [playerName].\nIf there's anything at all that you need here, just tell me and I'll see if I can take care of it for you!"
-    hide sahi_speaking
-    show sahi_happy
+    $ saMet = True
+
+    show sahi happy
+
     sa "Oh, and just Sahi is fine!"
     $ saName = "Sahi"
-    hide sahi_happy
-    show sahi_normal
+
+    show sahi normal
+
     p "{i}finally, someone who doesn't look like they want to murder me{/i}"
     p "Thank you, I appreciate it!"
-    hide sahi_normal
 
     if equip: 
-        pass
+        jump mission1
     else:
         doc "Alright [playerName], let's get you stocked up. We're going to the equipment room next."
-        show damian_speaking
+        show damian speaking
         d "You guys go ahead. I'll stay here with Sierra."
-        hide damian_speaking
-        show sahi_speaking
+        show sahi speaking
         sa "I have some things to do too. Sorry I can't come with you. But we'll see each other again soon!"
-        hide sahi_speaking
-        show issac_speaking
+        show isaac speaking
         i "Let's go!"
-        hide issac_speaking
         jump meetEquipment
 
 label meetEquipment:
+    scene bg armoury with dissolve
+    show doctor at right 
+    show isaac normal at two 
+    show mc at left 
+
     doc "Here's our equipment room, where we store weapons and gadgets."
-    doc "And, uh, this is Raphael Recursion. He's a field agent. Raphael, this is [playerName]."
+    doc "And, uh, this is Raphael Recursion. He's a field agent. Raphael, this is [title][playerName]."
+    $ raMet = True
+    
     p "Nice to meet y-"
     r "[playerName], huh. Well I don't really know who you are, but I'm sure you've heard of me." 
     p "..."
     r "Recursion?? Ring a bell?"
     p "..-"
     r "{i}sigh{/i} I guess I'll just have to educate you then. My dad, Richard Recursion, is the owner of one of the biggest corporations in the country and -"
+    
     menu:
         "cut him off: \"I really didn't ask but okay.\"":
             p "{i}he's so…full of himself. ew. such a nice face wasted on such a terrible personality. {i}"
             #doctor's likability increase by 5
             p "{i}wow so even doctors can dislike people…{/i}" #something more witty than this
     
-    show icarus_speaking
+    show icarus speaking
     ic "Oh, who's this?"
-    hide icarus_speaking
-    hide doctor
-    show icarus_normal
-    show issac_speaking at right
+
+    show icarus normal
+    show isaac speaking 
     i "Oh hey Icarus! This is [playerName]. She's a guest agent!"
-    $ icName = "Icarus"
-    hide issac_speaking
-    show issac_normal at right
-    hide icarus_normal
-    show icarus_speaking
+    
+    show isaac normal 
+    show icarus speaking
+    
     ic "Hello [playerName]. It's nice to meet you. I'm Icarus Inheritance."
-    hide icarus_speaking
-    show icarus_normal
-    hide issac_normal
-    show issac_speaking at right
+    $ icName = "Icarus Inheritance"
+    $ icMet = True
+    show icarus normal
+
+    show isaac speaking
     i "We call him Dorito though."
-# choices:
-# <“Let me guess, because of the bag of doritos?”>
-# ISAAC: No silly, because of his dorito build obviously!
-# MC: Oh, yes. Obviously.
-# <“Because of his dorito build or…”> what a daring thing to say LMAO
-# Isaac likability goes up by 5
-# You are now FRIENDS with isaac! (but only if you also did the other +5 option)
-# MC: {i}we're friends? because… i talked about some guy's waistline? what?{/i}
-# ISAAC: You're so funny [playerName]. I have a feeling we're going to be great friends!!
+    show isaac normal
+    
+    menu:
+        "Let me guess, because of the bag of doritos?":
+            p "Let me guess, because of the bag of doritos?"
+            i "No silly, because of his dorito build obviously!"
+            p "Oh, yes. Obviously."
+        
+        "Because of his dorito build or…":
+            p "Because of his dorito build or…"
+            show isaac speaking
+            i "AHAHAHAHAHA!!!" with hpunch  
+            # Isaac likability goes up by 5
+            # You are now FRIENDS with isaac! (but only if you also did the other +5 option)
+            show isaac happy
+            i "You're so funny [playerName]. I have a feeling we're going to be great friends!!"
+
+    
+    if office: 
+        jump mission1
+    else:
+        doc "[title][playerName], let's visit the reporting office next."
+        
+        show isaac happy
+        i "Do you two wanna come?"
+        
+        # show raphael speaking
+        r "I have to tend to Anastasia here, she's a little busted up after last mission. My poor baby."
+        
+        show icarus speaking
+        ic "Sorry, I have some repairing to do too. As you can see, these steam pipes are still a bit leaky."
+        show icarus normal
+
+        i "Let's go!"
+        jump meetOffice
+
+label mission1:
+    doc "Let's go back to the lobby, [title][playerName]. I have to give you some other orientation materials."
+    p "Sure!"
+    scene bg main room
+    show doctor at right
+    show mc at left
+    doc "Here's the mandatory brochure, the free pin, and the map. That should be all."
+    centered "WEEEEE OOOOOOOOO WEEEEE OOOOOOOOO" with vpunch
+    #(shake effect) (or lights flicker if you know how to do that)
+    show isaac normal # ill try to make like a concerned face 
+    i "Hey, something’s wrong with our systems!"
+    r "Ugh! Our repair systems are down, too!!"
+    show damian speaking
+    d "Your whack-a-bug isn’t working?"
+    n "Icarus shakes the device around, and his brows furrow."
+    d "From the looks of it, this isn’t a hardware issue."
+    ic "Haha, just our luck, right, [playerName]? The first day we’re here, we get our systems hacked, including our repair devices. and they targeted our one weakness – software!!"
+    
+    p "..."
+    p "I think I can help."
+    
+    n "The team looks at you, surprised." with hpunch
+    
+    d "..."
+    ic "Well, go at it."
+    #“Icarus hands you the device”
+
+# (you fix the bug)
+# (sahi likability increase by 1 each time you fail, lines like “You got this!” and “Everyone makes mistakes!”)
+
+# ic “wow, i’m impressed. do you want to give it a try?”
+# call start_whack_a_bug()
+# (sahi likability increase if you fail– the team takes over, like someone says “dont worry, we got it. thanks for your help!”)
+# (ic likability increase if you succeed)
+
 
 
