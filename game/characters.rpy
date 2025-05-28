@@ -19,7 +19,7 @@ default dLikability = 25
 define si = Character("[siName]", color = '#979797')
 define siName = "Sierra String"
 define siMet = False
-default sLikability = 35
+default siLikability = 35
 
 define sa = Character("[saName]", color = '#9000ff')
 define saName = "SDK Sahi"
