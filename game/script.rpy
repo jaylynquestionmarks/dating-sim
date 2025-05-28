@@ -122,7 +122,7 @@ return
 label playAlong:
     p "{i} you know what. this is WAY more exciting than presenting my project in class. i'm a secret agent now! {/i}"
     p "Sure!"
-    #doc likability points ^ by 3.
+    $ docLikability += 3
     p "{i} wait what? likability points? what are these?? {/i}"
     doc "Alright! Let's go into our main room then."
     "Dr. Polymorphism glances down at his tablet and looks confused."
@@ -179,7 +179,7 @@ label playAlong:
     $ iName = "Isaac"
     
     p "Thanks! You have such a pretty face!"
-        #isaac likability points up by 5
+    $ iLikability += 5
     i "Thanks!!!!"
     p "{i}wait the doc went from 35 to 38 because i agreed to be an agent{/i}"
     p "{i}this guy went from 40 to 45 because i said his face was nice…{/i}"
@@ -237,7 +237,7 @@ label playAlong:
             show damian speaking
             
             d "I'll suppose I'll join you as well."
-            #likability up by 2 
+            $ dLikability += 2
 
             show damian normal
             
@@ -287,7 +287,7 @@ label meetOffice:
     menu:
         "No, no, not at all.":
             p "No, no, not at all. {i}sweat{/i}"
-            #s points up by 5.
+            $ siLikability += 2
 
             show sierra happy 
             show isaac normal
@@ -298,7 +298,7 @@ label meetOffice:
         
             show isaac normal
             p "Don't worry, I like them cold."
-            #damian's likability increase by 2
+            $ dLikability += 2
 
     
     show doctor at right
@@ -352,7 +352,7 @@ label meetEquipment:
     menu:
         "cut him off: \"I really didn't ask but okay.\"":
             p "{i}he's so…full of himself. ew. such a nice face wasted on such a terrible personality. {i}"
-            #doctor's likability increase by 5
+            $ dLikability += 5
             p "{i}wow so even doctors can dislike people…{/i}" #something more witty than this
     
     show icarus speaking
@@ -384,7 +384,7 @@ label meetEquipment:
             p "Because of his dorito build or…"
             show isaac speaking
             i "AHAHAHAHAHA!!!" with hpunch  
-            # Isaac likability goes up by 5
+            $ iLikability += 5
             # You are now FRIENDS with isaac! (but only if you also did the other +5 option)
             show isaac happy
             i "You're so funny [playerName]. I have a feeling we're going to be great friends!!"
