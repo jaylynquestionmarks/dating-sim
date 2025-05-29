@@ -11,12 +11,6 @@ image bg_comp:
     ypos 100
     zoom 0.2
 
-image wab_bug:
-    "wab_bug.png"
-    xpos 1020
-    ypos 100
-    zoom 0.7
-
 default bug_score = 0
 default bug_pos = -1
 default bugging = False
@@ -71,10 +65,6 @@ label bug_game_over:
             ic "My god, you're good."
             hide screen whack_a_bug
             return
-
-        if wab_fixed != True:
-        add "wab_bug1"
-        add "wab_bug2"
     
 
 screen whack_a_bug():
