@@ -74,9 +74,9 @@ screen whack_a_bug():
         text "Time Left: [int(15 - (time.time() - bug_start_time))]s" xpos 400 ypos 20
     if bug_pos != -1:
         imagebutton:
-            idle "bugx"
+            idle "bug"
             xpos bug_coord[bug_pos][0]
-            ypos bug_coord[bug_pos][1]
+            ypos bug_coord[bug_pos][0]
             action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
     if bugging:
         timer 1.0 action SetVariable("bug_pos", -1) repeat False
