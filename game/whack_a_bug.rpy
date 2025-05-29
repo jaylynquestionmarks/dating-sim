@@ -67,8 +67,7 @@ screen whack_a_bug():
             idle "bug"
             xpos bug_coord[bug_pos][0]
             ypos bug_coord[bug_pos][1]
-            focus_mask True
-            action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
+            action [SetVariable("bug_score", bug_score - 1), SetVariable("bug_pos", -1), Return()]
     if bugging:
         timer 1.0 action SetVariable("bug_pos", -1) repeat False
     else:
