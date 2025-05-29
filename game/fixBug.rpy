@@ -14,6 +14,8 @@ label fixBug(loveInterest, amount, lineAns, codeAns):
         
         if line == lineAns:
             p "There's the issue!"
+
+            if wab_fixed != True:
             while userInput != codeAns:
                 $ userInput = renpy.input("Enter Code: ", multiline=True)
                 if userInput != codeAns:

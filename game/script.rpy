@@ -22,8 +22,6 @@ label splashscreen:
 
 label start:
 
-    call start_whack_a_bug()
-
     call screen select()
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
@@ -423,7 +421,7 @@ label mission1:
     show isaac normal # ill try to make like a concerned face 
     i "Hey, something’s wrong with our systems!"
     r "Ugh! Our repair systems are down, too!!"
-    show damian speaking
+    show damian speaking at two
     d "Your whack-a-bug isn’t working?"
     n "Icarus shakes the device around, and his brows furrow."
     d "From the looks of it, this isn’t a hardware issue."
@@ -436,7 +434,14 @@ label mission1:
     
     d "..."
     ic "Well, go at it."
-    #“Icarus hands you the device”
+    #Icarus hands you the device”
+    call start_whack_a_bug
+
+    ic "Well, since you fixed it, do you want to give it a try?"
+    p "Sure!"
+
+    call start_whack_a_bug
+    ic "Good to have you on the team, [playerName]."
 
 # (you fix the bug)
 # (sahi likability increase by 1 each time you fail, lines like “You got this!” and “Everyone makes mistakes!”)

@@ -7,14 +7,20 @@ image bug:
 
 image bg_comp:
     "pc.jpg"
-    xpos 100
+    xpos 20
     ypos 100
     zoom 0.2
+
+image wab_bug:
+    "wab_bug.png"
+    xpos 1020
+    ypos 100
+    zoom 0.7
 
 default bug_score = 0
 default bug_pos = -1
 default bugging = False
-default bug_coord = [(220, 200), (500, 200), (800, 200), (220, 420), (520, 420), (800, 420)]
+default bug_coord = [(140, 200), (420, 200), (720, 200), (140, 420), (440, 420), (720, 420)]
 default bug_start_time = 0
 default wab_fixed = False
 
@@ -50,11 +56,25 @@ label bug_game_over:
     $ bugging = False
     "Game Over! Your score was [bug_score]. (click/space to continue)"
     if wab_fixed != True:
-        call fixBug(ic, 5, "1", "o")
+        call fixBug(ic, 5, "77", 'SetVariable("bug_score", bug_score + 1)')
         $ wab_fixed = True
-    else:
         hide screen whack_a_bug
         return
+    else:
+        if bug_score < 4:
+            sa "Don't sweat it, try again!"
+        elif bug_score < 7:
+            sa "Close, close! One more try!"
+        elif bug_score < 10:
+            sa "Awww, suuuuper close!! You got this!"
+        else:
+            ic "My god, you're good."
+            hide screen whack_a_bug
+            return
+
+        if wab_fixed != True:
+        add "wab_bug1"
+        add "wab_bug2"
     
 
 screen whack_a_bug():
@@ -64,10 +84,10 @@ screen whack_a_bug():
         text "Time Left: [int(15 - (time.time() - bug_start_time))]s" xpos 400 ypos 20
     if bug_pos != -1:
         imagebutton:
-            idle "bug"
+            idle "bugx"
             xpos bug_coord[bug_pos][0]
             ypos bug_coord[bug_pos][1]
-            action [SetVariable("bug_score", bug_score - 1), SetVariable("bug_pos", -1), Return()]
+            action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
     if bugging:
         timer 1.0 action SetVariable("bug_pos", -1) repeat False
     else:
