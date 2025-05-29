@@ -21,6 +21,9 @@ label splashscreen:
     return
 
 label start:
+
+    call start_whack_a_bug()
+
     call screen select()
     # animation of eye opening slowly - apparently this can be a movie file 
     doc "You're awake! How are you feeling?"
