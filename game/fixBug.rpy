@@ -16,6 +16,7 @@ label fixBug(loveInterest, amount, lineAns, codeAns):
             p "There's the issue!"
 
             if wab_fixed != True:
+                "Tip: If entering brackets, you will need to type the open brackets twice (as in [[ and ]) due to the limitations of RenPy"
             while userInput != codeAns:
                 $ userInput = renpy.input("Enter Code: ", multiline=True)
                 if userInput != codeAns:

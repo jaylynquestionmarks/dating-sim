@@ -11,6 +11,18 @@ image bg_comp:
     ypos 100
     zoom 0.2
 
+image wab_bug1:
+    "wab_bug1.png"
+    xpos 1020
+    ypos 20
+    zoom 0.7
+
+image wab_bug2:
+    "wab_bug2.png"
+    xpos 1020
+    ypos 400
+    zoom 0.7
+
 default bug_score = 0
 default bug_pos = -1
 default bugging = False
@@ -42,6 +54,7 @@ label bug_loop:
         $ bug_pos = renpy.random.randint(0, len(bug_coord) - 1)
         $ renpy.pause(0.6)
         $ bug_pos = -1
+        $ renpy.pause(0.1)
         if time.time() - bug_start_time >= 15:
             $ bugging = False
     jump bug_game_over
@@ -49,12 +62,7 @@ label bug_loop:
 label bug_game_over:
     $ bugging = False
     "Game Over! Your score was [bug_score]. (click/space to continue)"
-    if wab_fixed != True:
-        call fixBug(ic, 5, "77", 'SetVariable("bug_score", bug_score + 1)')
-        $ wab_fixed = True
-        hide screen whack_a_bug
-        return
-    else:
+    if wab_fixed:
         if bug_score < 4:
             sa "Don't sweat it, try again!"
         elif bug_score < 7:
@@ -65,19 +73,35 @@ label bug_game_over:
             ic "My god, you're good."
             hide screen whack_a_bug
             return
+    else:
+        call fixBug(ic, 5, "79", "ypos bug_coord[[bug_pos][[1]")
+        $ wab_fixed = True
+        hide screen whack_a_bug
+        return
     
 
 screen whack_a_bug():
     add "bg_comp"
+    if wab_fixed != True:
+        add "wab_bug1"
+        add "wab_bug2"
     text "score: [bug_score]" xpos 20 ypos 20
     if int(15 - (time.time() - bug_start_time)) >= 0:
         text "Time Left: [int(15 - (time.time() - bug_start_time))]s" xpos 400 ypos 20
     if bug_pos != -1:
-        imagebutton:
-            idle "bug"
-            xpos bug_coord[bug_pos][0]
-            ypos bug_coord[bug_pos][0]
-            action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
+        if wab_fixed != True:
+            imagebutton:
+                idle "bug"
+                xpos bug_coord[bug_pos][0]
+                ypos bug_coord[bug_pos][0]
+                action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
+        else:
+            imagebutton:
+                idle "bug"
+                xpos bug_coord[bug_pos][0]
+                ypos bug_coord[bug_pos][1]
+                action [SetVariable("bug_score", bug_score + 1), SetVariable("bug_pos", -1), Return()]
+
     if bugging:
         timer 1.0 action SetVariable("bug_pos", -1) repeat False
     else:

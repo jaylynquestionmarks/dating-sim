@@ -1,6 +1,10 @@
 image char_menu_idle = im.Scale("gui/char_menu_idle.png", 100, 100)
 image char_menu_hover = im.Scale("gui/char_menu_hover.png", 100, 100)
 
+image crash:
+    Movie(play = "images/crash.webm")
+    zoom 1.8
+
 define title = ""
 image darken:
     "gui/overlay/confirm.png"
@@ -20,6 +24,14 @@ label splashscreen:
 
     return
 
+label crash_scene:
+    show crash
+    pause(0.6)
+    play sound "audio/crash_sfx.mp3"
+    pause(2)
+
+    return
+
 label start:
 
     call screen select()
@@ -34,18 +46,17 @@ label start:
     centered "3 hours ago..." with hpunch
 
     scene bg school with dissolve
-    centered "{color=#0000ffff}05/20/25 \n1:25 pm{/color}"
+    centered "{color=#0000ffff}05/30/25 \n1:25 pm{/color}"
 
     scene bg hallway with dissolve
     show mc at left 
 
     preShiftp  "Oh no! I only have a minute to get to class! I gotta present my final project in Mrs. Patil's class today!!!"
 
-    show golf_kart_kun 
-    with zoomin
-
     preShiftp  "AAHHHHHHHH!!!"
     centered "HONK HONK!!!!! SCREEEEECHHHH!!! SSDRJFSUDHICJDKJS" #replace with audio & video maybe??
+
+    call crash_scene
 
     scene black
     centered "Present" with hpunch
