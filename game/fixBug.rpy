@@ -21,11 +21,19 @@ label fixBug(loveInterest, amount, lineAns, codeAns):
                 $ userInput = renpy.input("Enter Code: ", multiline=True)
                 if userInput != codeAns:
                     p "Wait, that's not right..."
-                    #affection w/ character decreases if wrong + secretly increase affection w sahi 
-            # affection w/ character increases if right
+                    $ loveInterest.likability -= (amount / 3)
+                    show screen likability_bar(loveInterest.likability, False)
+                    pause
+                    hide screen likability_bar
+                    $ sahi.likability += (amount / 3) 
+            $ loveInterest.likability += amount
             $ fixed = True
         else:
-            #affection w/ character decreases if wrong + secretly increase affection w sahi 
+            $ loveInterest.likability -= (amount / 3)
+            show screen likability_bar(loveInterest.likability, False)
+            pause
+            hide screen likability_bar
+            $ sahi.likability += (amount / 3)
             p "Hold on-- that's not it."
     $ fixed = False
     hide text
