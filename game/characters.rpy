@@ -144,13 +144,7 @@ image icarus speaking:
     zoom 0.4
 
 image raphael:
-    "fake_raphael.png"
-    zoom 1
-# image raphael_normal:
-#     "raphael_normal.png"
-#     zoom 0.4
-# image raphael_speaking:
-    "raphael_speaking.png"
+    "raphael_normal.png"
     zoom 0.4
 
 # character alignments 

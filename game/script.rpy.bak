@@ -16,7 +16,7 @@ label splashscreen:
     scene black
     with Pause(1)
 
-    show text "CODEpendency Studio presents" with dissolve
+    show text "our group studios presents" with dissolve
     with Pause(2)
 
     hide text with dissolve
@@ -58,7 +58,7 @@ label start:
     preShiftp  "AAHHHHHHHH!!!"
     centered "HONK HONK!!!!! SCREEEEECHHHH!!! SSDRJFSUDHICJDKJS" #replace with audio & video maybe??
 
-    call crash_scene from _call_crash_scene
+    call crash_scene
 
     scene black
     centered "Present" with hpunch
@@ -179,7 +179,7 @@ label playAlong:
             menu:
                 "Investigate!":
                     show screen ticTacToeGame(False)
-                    call fixBug(doc, 3, "64", "$ turn = \"x\"") from _call_fixBug
+                    call fixBug(doc, 3, "64", "$ turn = \"x\"")
                     hide screen ticTacToeGame
                     hide screen o0
                     hide screen o1
@@ -418,8 +418,7 @@ label meetEquipment:
             hide screen likability_bar
             p "{i}wow so even doctors can dislike people…{/i}" #something more witty than this
     
-    show raphael at five
-    show icarus speaking at center 
+    show icarus speaking
     $ ic("Oh, who's this?")
 
     show icarus normal
@@ -465,7 +464,7 @@ label meetEquipment:
         show isaac happy
         $ i("Do you two wanna come?")
         
-        show raphael
+        # show raphael speaking
         $ r("I have to tend to Anastasia here, she's a little busted up after last mission. My poor baby.")
         
         show icarus speaking
@@ -509,10 +508,10 @@ label mission1:
     $ d("...")
     $ ic("Well, go at it.")
     #Icarus hands you the device”
-    call start_whack_a_bug from _call_start_whack_a_bug
+    call start_whack_a_bug
 
     $ ic("Well, since you fixed it, do you want to give it a try?")
     p "Sure!"
 
-    call start_whack_a_bug from _call_start_whack_a_bug_1
+    call start_whack_a_bug
     $ ic("Good to have you on the team, [playerName].")

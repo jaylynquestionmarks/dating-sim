@@ -33,7 +33,7 @@ default wab_fixed = False
 label start_whack_a_bug():
     $ bug_score = 0
     $ bugging = True
-    call bug_countdown from _call_bug_countdown
+    call bug_countdown
     $ bug_start_time = time.time()
     show screen whack_a_bug
     jump bug_loop
@@ -74,7 +74,7 @@ label bug_game_over:
             hide screen whack_a_bug
             return
     else:
-        call fixBug(ic, 5, "79", "ypos bug_coord[[bug_pos][[1]") from _call_fixBug_1
+        call fixBug(ic, 5, "79", "ypos bug_coord[[bug_pos][[1]")
         $ wab_fixed = True
         hide screen whack_a_bug
         return
