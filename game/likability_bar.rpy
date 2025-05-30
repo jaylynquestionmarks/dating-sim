@@ -9,8 +9,8 @@ screen likability_bar(val, in_char_screen = True):
         right_bar "gui/bar/right_bar.png"
         xysize(300, 40)
         if in_char_screen:
-            xalign 0.5
-            yalign 0.5
+            xalign 0.63
+            yalign 0.79
         else:
             xalign 0.8
             yalign 0.1

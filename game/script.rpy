@@ -41,7 +41,6 @@ label start:
     p "ugh... I'm okay I guess. Who are you?"
     $ doc("I'm Dr. Polymorphism.")
     $ docName = "Dr. Polymorphism"
-    $ doc("hi")
     # $ docName = "Dr. Polymorphism"
     p  "..." 
     p  "huh???"
@@ -66,14 +65,19 @@ label start:
 
     scene bg infirmary
     show mc at one 
-    show doctor at right 
+    show doc normal at right 
 
     p  "What...? Polymorphism?"
+    show doc speaking 
     $ doc("My last name, huh? My family is pretty well known for our diverse careers.")
     $ doc("You may have heard of my cousin, the idol Paisley Polymorphism. Yes, I'm one of the Polymorphisms.")
+    show doc normal
     p  "... Did I get freaking isekai'd???"
+    show doc speaking
     $ doc("Sorry, what?")
+    show doc normal
     p  "No, hold on. Where am I? What is this place?"
+    show doc speaking
     $ doc("You're at Code Care Center here at the AP CSA, [title]...")
 
     $ input_align = 0.5
@@ -81,18 +85,26 @@ label start:
 
     $ doc("Well [title][playerName], you were admitted for a near fatal code crash, but we managed to bring you back.")
     p "... code crash?"
+    show doc speaking
     $ doc("Miss [playerName]? Are you alright?")
+    show doc normal
     p "Yeah, sorry. I blanked out for a second."
+    show doc speaking
     $ doc("Oh, that's okay. So, about your situation. Your code suddenly crashed, but we couldn't figure out the exact cause.")
     $ doc("Our team here was debating whether it was a stack overflow but you didn't show any signs of internal spasming, so we're not exactly sure.")
+    show doc normal
     p "{i}A stack overflow? How does that happen to a person??{/i}"
+    show doc speaking
     $ doc("From your medical record, it looks like it's been a recurring issue.")
     $ doc("Apparently you're an intern at a branch of the AP CSA? That's Agent Patil's Corporation of Secret Agents, in case your memory's still spotty.")
     $ doc("They've decided they want to keep you under their watch, so they're...putting you on our team???")
     $ doc("That makes no sense. But unfortunately, it's a nonnegotiable order.")
+    show doc normal
     p "What."
+    show doc speaking
     $ doc("You have the benefit of being a guest agent here, though. You'll be reset if we decide to let you go because this is confidential information.")
     p "..."
+    show doc happy
     $ doc("If you're feeling up for it, we can go on a tour of our facility right now!")
     menu:
         "fess up and reveal you think you've been isekai'd":
@@ -104,16 +116,21 @@ label start:
 label cowardEnding:
 
     p "I'm sorry, Dr. P. I think I've been isekai'ed into this world."
+    show doc speaking
     $ doc("Huh? Sorry, I'm not sure what you mean…")
+    show doc normal 
     p "I mean that I think I've been transported here from my old life. I think I'm not from this world."
     p "I got into some sort of accident in my previous life and just woke up here."
     p "I really want to go back, I have a really important project to present in class!"
     $ doc("...")
     $ doc("......")
+    show doc speaking
     $ doc("Ohh!!! That's why your code crashed so strangely!! Why didn't you say so earlier?? I've got just the thing for you.")
     $ doc("You're very lucky we found you; we have access to a state-of-the-art Returner here!!")
     $ doc("Come with me, we'll return you to your own world.")
+    show doc happy
     p "{i}dang. that was so easy.{/i}"
+    show doc speaking
     $ doc("It's a shame we have to part so early. But thank you for being clear with me. Goodbye!!")
     # zap to real world
 
@@ -131,7 +148,7 @@ label cowardEnding:
     hide darken
     hide screen announce
     
-    $ MainMenu(confirm = False)()# The script of the game goes in this file.
+    $ MainMenu(confirm = False)()
 return 
 
 label playAlong:
@@ -141,10 +158,12 @@ label playAlong:
     show screen likability_bar(doc.likability, False)
     pause
     hide screen likability_bar
-    p "{i} wait what? likability points? what are these?? {/i}"
+    p "{i} wait what? what's this bar?? {/i}"
+    show doc speaking
     $ doc("Alright! Let's go into our main room then.")
     "Dr. Polymorphism glances down at his tablet and looks confused."
     p "..Is everything alright?"
+    show doc nervous
     $ doc("So.")
     $ doc("This is a bit awkward, but I was on break playing a game before you were brought in.")
     $ doc("I was trying to pull up a map of the place, but my tablet won't let me exit the game app..")
@@ -155,6 +174,7 @@ label playAlong:
             $ doc("...")
             $ doc("Anyways...")
             $ doc("Well, the board started glitching when you came in...")
+            show doc speaking
             $ doc("Can you {color=#f00}fix the bug{/color}? You can try {color=#f00}playing the game{/color} to figure it out.")
             menu:
                 "Investigate!":
@@ -172,17 +192,23 @@ label playAlong:
                     hide screen o8
     call screen ticTacToeGame(True)
     $ doc("Whoa, you actually fixed it?")
+    show doc normal
     p "Yeah...It was kinda easy to be honest.."
+    show doc speaking
     $ doc("Don't you know how rare skills like those are? With that talent, you might make a fine addition to the team after all!")
     $ doc("You'll see once you meet the team - let's go!")
+    show doc happy
 
     scene bg main room with dissolve
     show mc at left
     show doctor at right
-    
+
+    show doc speaking    
     $ doc("This is the common area, where we gather for our main missions from Agent Patil, our supervisor.")
+    show doc normal
     show isaac happy at center
     $ i("HEY PETEY!!!! {i} *GASPPPP!!*{/i}")
+    show doc nervous
     $ i("oh")
     $ i("my")
     $ i("GODDDD!!! Petey, is this our new agent???")
@@ -238,11 +264,12 @@ label playAlong:
     show isaac happy
     show doctor at right
     
+
     $ doc("{i} sigh {/i}")
     $ doc("I mean, if you want to. Let's keep moving then.")
     
     show isaac happy
-    
+    show doc normal
     $ doc("[title][playerName], do you want to see our equipment room first or see our main reporting office?")
     menu:
         "\"The equipment room sounds pretty cool!\"":
@@ -275,23 +302,25 @@ label playAlong:
 
 label meetOffice:
     scene bg office with dissolve
-    show doctor at right 
+    show doc normal at right 
     show mc at one 
     show damian normal at two 
     show isaac normal at three
 
+    show doc speaking
     $ doc("Here we are, in the main reporting office." )
+    show doc normal 
     $ doc("...")
+    show doc nervous 
     $ doc("Well it looks empty right now, but there are usually more people here.")
     
     show sierra normal at five
     
+    show doc happy
     $ doc("Oh, this is Sierra String. She's our journalist. Sierra, this is [playerName]. She's our new guest agent.")
     
     show sierra speaking
-    
     $ si("Hello.")
-    
     show sierra normal
     
     p "{i}what… another murderous looking person already? why?{/i}"
@@ -330,11 +359,11 @@ label meetOffice:
             pause
             hide screen likability_bar
 
-    
-    show doctor at right
+
     show sahi normal  
 
     $ doc("Oh, this is SDK Sahi, our on-base support. Sahi, this is [playerName].")
+    show doc normal 
 
     show sahi speaking
     $ sa("Hello! Nice to meet you [playerName].\nIf there's anything at all that you need here, just tell me and I'll see if I can take care of it for you!")
@@ -369,6 +398,7 @@ label meetEquipment:
     show mc at left 
 
     $ doc("Here's our equipment room, where we store weapons and gadgets.")
+    show raphael
     $ doc("And, uh, this is Raphael Recursion. He's a field agent. Raphael, this is [title][playerName].")
     $ raMet = True
     
@@ -445,21 +475,28 @@ label meetEquipment:
         jump meetOffice
 
 label mission1:
+    show doc speaking
     $ doc("Let's go back to the lobby, [title][playerName]. I have to give you some other orientation materials.")
+    show doc normal
     p "Sure!"
     scene bg main room
-    show doctor at right
+    show doc normal
     show mc at left
+    
+    show doc speaking
     $ doc("Here's the mandatory brochure, the free pin, and the map. That should be all.")
+    show doc normal 
     centered "WEEEEE OOOOOOOOO WEEEEE OOOOOOOOO" with vpunch
     #(shake effect) (or lights flicker if you know how to do that)
-    show isaac normal # ill try to make like a concerned face 
+    show isaac normal at three# ill try to make like a concerned face 
     $ i("Hey, something's wrong with our systems!")
     $ r("Ugh! Our repair systems are down, too!!")
     show damian speaking at two
+    show icarus normal at five
     $ d("Your whack-a-bug isn't working?")
     n "Icarus shakes the device around, and his brows furrow."
     $ d("From the looks of it, this isn't a hardware issue.")
+    show icarus speaking
     $ ic("Haha, just our luck, right, [playerName]? The first day we're here, we get our systems hacked, including our repair devices. and they targeted our one weakness - software!!")
     
     p "..."
@@ -467,6 +504,7 @@ label mission1:
     
     n "The team looks at you, surprised." with hpunch
     
+    show damian normal
     $ d("...")
     $ ic("Well, go at it.")
     #Icarus hands you the device”
@@ -477,14 +515,3 @@ label mission1:
 
     call start_whack_a_bug
     $ ic("Good to have you on the team, [playerName].")
-
-# (you fix the bug)
-# (sahi likability increase by 1 each time you fail, lines like “You got this!” and “Everyone makes mistakes!”)
-
-# ic “wow, i’m impressed. do you want to give it a try?”
-# call start_whack_a_bug()
-# (sahi likability increase if you fail– the team takes over, like someone says “dont worry, we got it. thanks for your help!”)
-# (ic likability increase if you succeed)
-
-
-

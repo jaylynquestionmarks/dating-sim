@@ -50,9 +50,6 @@ default equip = False
 default office = False
 
 # characters and backgroounds  
-image doctor:
-    "doctor.png"
-    zoom 1.75   
 image mc:
     "mc.png"
 image golf_kart_kun:
@@ -81,6 +78,23 @@ image bg armoury:
     "bg_armoury.jpg"
     xalign 0.5 yalign 0.5
     zoom 3.00
+
+image doc normal:
+    "doc_normal.png"
+    xalign 0.5 yalign 0.5
+    zoom 0.4
+image doc happy:
+    "doc_happy.png"
+    xalign 0.5 yalign 0.5
+    zoom 0.4
+image doc nervous:
+    "doc_nervous.png"
+    xalign 0.5 yalign 0.5
+    zoom 0.4
+image doc speaking:
+    "doc_speaking.png"
+    xalign 0.5 yalign 0.5
+    zoom 0.4
 
 image isaac normal:
     "isaac_normal.png"
@@ -127,6 +141,16 @@ image icarus normal:
     zoom 0.4
 image icarus speaking:
     "icarus_speaking.png"
+    zoom 0.4
+
+image raphael:
+    "fake_raphael.png"
+    zoom 1
+# image raphael_normal:
+#     "raphael_normal.png"
+#     zoom 0.4
+# image raphael_speaking:
+    "raphael_speaking.png"
     zoom 0.4
 
 # character alignments 
