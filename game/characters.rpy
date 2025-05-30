@@ -1,40 +1,49 @@
 # character objects 
+init python:
+    class character_obj:
+        def __init__(self, char, likability = 35):
+            self.char = char
+            self.likability = likability
+        def __call__(self, text):
+            self.char(text)
+
 define n = Character("", color = "#0080ff", window_background = Frame("gui/assets/ntextbox.png"), what_xalign=0.5, what_yalign=0.5)
 define preShiftp = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/textbox1.png", 1, 1), namebox_xpos=220)
 define p = Character("[playerName]", color = "#ffffff", window_background=Frame("gui/assets/ourTextbox.png", ypos = -20), namebox_xpos=220)
 default playerName = "You"
 
-define doc = Character("[docName]", color = "#001368")
+define doc_char = Character("[docName]", color = "#0d0e13")
 default docName = "???"
-default docLikability = 35
+define doc = character_obj(doc_char)
 
-define i = Character("[iName]", color = "#ff8800")
+define i_char = Character("[iName]", color = "#ff8800")
 default iName = "???"
-default iLikability = 40
+define i = character_obj(i_char, 40)
 
-define d = Character("[dName]", color = "#000000")
-define dName = "Damian Double"
+define d_char = Character("[dName]", color = "#000000")
+default dName = "Damian Double"
+define d = character_obj(d_char, 25)
 default dLikability = 25
 
-define si = Character("[siName]", color = '#979797')
-define siName = "Sierra String"
+define si_char = Character("[siName]", color = '#979797')
+default siName = "Sierra String"
+define si = character_obj(si_char)
 define siMet = False
-default siLikability = 35
 
-define sa = Character("[saName]", color = '#9000ff')
-define saName = "SDK Sahi"
+define sa_char = Character("[saName]", color = '#9000ff')
+default saName = "SDK Sahi"
+define sa = character_obj(sa_char)
 define saMet = False
-default saLikability = 35
 
-define r = Character("[rName]", color = "#3bf441")
-define rName = "Raphael Recursion"
+define r_char = Character("[rName]", color = "#3bf441")
+default rName = "Raphael Recursion"
+define r = character_obj(r_char)
 define raMet = False
-default rLikability = 35
 
-define ic = Character ("[icName]", color = '#fecb3f')
+define ic_char = Character ("[icName]", color = '#fecb3f')
 default icName = "???"
+define ic = character_obj(ic_char)
 define icMet = False
-default icLikability = 35
 
 #plot structure variable
 default equip = False
