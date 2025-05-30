@@ -78,7 +78,7 @@ label start:
 
     doc "Well [title][playerName], you were admitted for a near fatal code crash, but we managed to bring you back."
     p "... code crash?"
-    doc "Miss [playerName]? Are you alright?"  
+    doc "[title][playerName]? Are you alright?"  
     p "Yeah, sorry. I blanked out for a second."
     doc "Oh, that's okay. So, about your situation. Your code suddenly crashed, but we couldn't figure out the exact cause."
     doc "Our team here was debating whether it was a stack overflow but you didn't show any signs of internal spasming, so we're not exactly sure."

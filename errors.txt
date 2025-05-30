@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 103: 'action' is not a keyword argument or valid child of the screen statement.
-    action Return()
-          ^
+File "game/char_prof_1.rpy", line 124: text expects a non-empty block.
+    text "Damian Double":
+                         ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue May 27 21:30:40 2025
+Thu May 29 01:05:31 2025
